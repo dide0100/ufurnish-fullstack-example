@@ -4,40 +4,34 @@ import Head from 'next/head';
 import ProductCard from '../../components/ProductCard';
 import Layout from '../../components/Layout';
 
-// --- Mock API ---
-async function fetchProducts(categoryId, page = 1, pageSize = 10) {
-  const allProducts = Array.from({ length: 50 }, (_, i) => ({
-    id: `${categoryId}-${i + 1}`,
-    name: `Product ${i + 1} in ${categoryId}`,
-    price: (Math.random() * 100).toFixed(2),
-    shortDescription: `A stylish ${categoryId} item number ${i + 1}.`,
-    meta: {
-      title: `Buy ${categoryId} Product ${i + 1} | ufurnish.com`,
-      description: `Find ${categoryId} product ${i + 1} and similar items on ufurnish.com.`,
-      image: `https://via.placeholder.com/600x400?text=${encodeURIComponent(categoryId + ' ' + (i + 1))}`,
-    },
-  }));
-  const start = (page - 1) * pageSize;
-  const end = start + pageSize;
-  return allProducts.slice(start, end);
+/**
+ * Hybrid ISR + API-driven front end
+ * ---------------------------------
+ * This page statically generates category pages for SEO (ISR)
+ * using data fetched from our unified backend API.
+ * It also supports client-side pagination for large datasets.
+ */
+
+async function fetchProducts(categoryId, page = 1) {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products/${categoryId}?page=${page}`);
+  return res.json();
 }
 
-function CategoryPage({ categoryId, initialProducts, categoryMeta }) {
-  const [products, setProducts] = useState(initialProducts);
+function CategoryPage({ categoryId, initialData, categoryMeta }) {
+  const [products, setProducts] = useState(initialData.products);
   const [page, setPage] = useState(2);
   const [hasMore, setHasMore] = useState(true);
-  const pageSize = 10;
 
   const loadMore = async () => {
-    const newProducts = await fetchProducts(categoryId, page, pageSize);
-    setProducts(prev => [...prev, ...newProducts]);
+    const data = await fetchProducts(categoryId, page);
+    setProducts(prev => [...prev, ...data.products]);
     setPage(prev => prev + 1);
-    if (newProducts.length < pageSize) setHasMore(false);
+    if (data.products.length < data.pageSize) setHasMore(false);
   };
 
   return (
     <>
-      {/* --- Page-specific SEO overrides --- */}
+      {/* --- Per-page SEO metadata --- */}
       <Head>
         <title>{categoryMeta.title}</title>
         <meta name="description" content={categoryMeta.description} />
@@ -45,7 +39,9 @@ function CategoryPage({ categoryId, initialProducts, categoryMeta }) {
       </Head>
 
       <h1>{categoryMeta.heading}</h1>
-      {products.map(p => <ProductCard key={p.id} product={p} />)}
+
+      {products.map(p => <ProductCard key={p.productId} product={p} />)}
+
       {hasMore ? (
         <button onClick={loadMore} style={{ margin: '16px' }}>Load More</button>
       ) : (
@@ -55,23 +51,29 @@ function CategoryPage({ categoryId, initialProducts, categoryMeta }) {
   );
 }
 
-// --- ISR: Build static HTML + JSON, revalidate every minute ---
+// --- ISR: Build HTML from backend API, revalidate every 60s ---
 export async function getStaticProps({ params }) {
-  const initialProducts = await fetchProducts(params.categoryId, 1, 10);
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+  const data = await fetch(`${baseUrl}/api/products/${params.categoryId}?page=1`).then(res => res.json());
+
   const categoryMeta = {
     title: `Shop ${params.categoryId} Furniture | ufurnish.com`,
-    description: `Browse ${params.categoryId} furniture — sofas, beds, tables and more. Compare top retailers easily on ufurnish.com.`,
-    image: initialProducts[0]?.meta.image,
+    description: `Browse ${params.categoryId} furniture and decor. Compare prices easily on ufurnish.com.`,
+    image: data.products[0]?.image,
     heading: `Explore ${params.categoryId}`,
   };
 
   return {
-    props: { categoryId: params.categoryId, initialProducts, categoryMeta },
+    props: {
+      categoryId: params.categoryId,
+      initialData: data,
+      categoryMeta,
+    },
     revalidate: 60,
   };
 }
 
-// --- ISR: Pre-generate top categories ---
+// --- ISR pre-generation of key categories ---
 export async function getStaticPaths() {
   const topCategories = ['sofas', 'beds', 'tables'];
   return {
@@ -80,7 +82,6 @@ export async function getStaticPaths() {
   };
 }
 
-// --- Attach layout (used by _app.js) ---
 CategoryPage.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>;
 };
