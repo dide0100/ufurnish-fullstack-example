@@ -2,6 +2,7 @@
   "name": "ufurnish-fullstack-example",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -16,5 +17,10 @@
     "next": "^15.5.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "@types/react": "^19.2.2",
+    "typescript": "^5.9.3"
   }
 }
