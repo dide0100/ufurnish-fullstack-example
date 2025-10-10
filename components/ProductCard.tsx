@@ -1,4 +1,5 @@
-// Simple reusable component to display a single product card
+// /components/ProductCard.tsx
+// Reusable presentational component for rendering product info.
 
 import React from 'react'
 

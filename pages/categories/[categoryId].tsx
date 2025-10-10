@@ -1,19 +1,11 @@
-// This page statically generates a category page (SEO-friendly)
-// and revalidates every 60 seconds to keep data fresh.
-// It fetches standardized product data from our unified API.
+// /pages/categories/[categoryId].tsx
+// Uses Incremental Static Regeneration (ISR) for SEO and freshness.
+// Fetches from versioned API endpoint (/api/v1/products/:categoryId).
+// Handles both build-time generation and runtime revalidation.
 
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import { useState } from 'react'
-
-interface Product {
-  id: string
-  name: string
-  price: number
-  stock: number
-  category: string
-  image: string
-  retailer: string
-}
+import type { Product, ApiResponse } from '../../types/product.js'
 
 interface CategoryPageProps {
   categoryId: string
@@ -26,11 +18,16 @@ export default function CategoryPage({ categoryId, products }: CategoryPageProps
   return (
     <>
       <head>
-        {/* Dynamic metadata for SEO */}
         <title>{categoryId} - Furniture Collection | ufurnish.com</title>
-        <meta name="description" content={`Explore ${categoryId} products from top retailers.`} />
+        <meta
+          name="description"
+          content={`Explore ${categoryId} products from top furniture retailers.`}
+        />
         <meta property="og:title" content={`${categoryId} - Furniture on ufurnish.com`} />
-        <meta property="og:description" content={`Discover ${products.length} ${categoryId} products`} />
+        <meta
+          property="og:description"
+          content={`Discover ${products.length} ${categoryId} products from leading brands.`}
+        />
       </head>
 
       <main>
@@ -51,21 +48,26 @@ export default function CategoryPage({ categoryId, products }: CategoryPageProps
   )
 }
 
-// Generate static paths for known categories
+// Statically generate paths for known categories
 export const getStaticPaths: GetStaticPaths = async () => {
   const categories = ['sofas', 'tables', 'chairs']
   const paths = categories.map(cat => ({ params: { categoryId: cat } }))
   return { paths, fallback: 'blocking' }
 }
 
-// Statically generate page + revalidate every 60s
+// ISR: pre-render + revalidate every 60s
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const categoryId = params?.categoryId as string
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products/${categoryId}`)
-  const products: Product[] = await res.json()
+
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/v1/products/${categoryId}`)
+  const json: ApiResponse<Product[]> = await res.json()
+
+  if (!json.success || !json.data) {
+    return { notFound: true }
+  }
 
   return {
-    props: { categoryId, products },
-    revalidate: 60 // ISR - rebuild every 60 seconds
+    props: { categoryId, products: json.data },
+    revalidate: 60
   }
 }
