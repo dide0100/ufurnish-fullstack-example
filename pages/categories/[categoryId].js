@@ -1,28 +1,28 @@
 // pages/categories/[categoryId].js
-import Head from 'next/head';
 import { useState } from 'react';
+import Head from 'next/head';
 import ProductCard from '../../components/ProductCard';
+import Layout from '../../components/Layout';
 
-// Simulated server data source
+// --- Mock API ---
 async function fetchProducts(categoryId, page = 1, pageSize = 10) {
   const allProducts = Array.from({ length: 50 }, (_, i) => ({
     id: `${categoryId}-${i + 1}`,
     name: `Product ${i + 1} in ${categoryId}`,
     price: (Math.random() * 100).toFixed(2),
-    shortDescription: `A great ${categoryId} product number ${i + 1}.`,
+    shortDescription: `A stylish ${categoryId} item number ${i + 1}.`,
     meta: {
-      title: `Buy ${categoryId} - Product ${i + 1} | ufurnish.com`,
-      description: `Discover Product ${i + 1} in our ${categoryId} collection. Compare prices and find inspiration on ufurnish.com.`,
+      title: `Buy ${categoryId} Product ${i + 1} | ufurnish.com`,
+      description: `Find ${categoryId} product ${i + 1} and similar items on ufurnish.com.`,
       image: `https://via.placeholder.com/600x400?text=${encodeURIComponent(categoryId + ' ' + (i + 1))}`,
     },
   }));
-
   const start = (page - 1) * pageSize;
   const end = start + pageSize;
   return allProducts.slice(start, end);
 }
 
-export default function CategoryPage({ categoryId, initialProducts, categoryMeta }) {
+function CategoryPage({ categoryId, initialProducts, categoryMeta }) {
   const [products, setProducts] = useState(initialProducts);
   const [page, setPage] = useState(2);
   const [hasMore, setHasMore] = useState(true);
@@ -37,56 +37,41 @@ export default function CategoryPage({ categoryId, initialProducts, categoryMeta
 
   return (
     <>
-      {/* --- SEO Metadata dynamically generated --- */}
+      {/* --- Page-specific SEO overrides --- */}
       <Head>
         <title>{categoryMeta.title}</title>
         <meta name="description" content={categoryMeta.description} />
-        <meta property="og:title" content={categoryMeta.title} />
-        <meta property="og:description" content={categoryMeta.description} />
         <meta property="og:image" content={categoryMeta.image} />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
-      <main style={{ padding: '16px' }}>
-        <h1>{categoryMeta.heading}</h1>
-
-        {/* --- ISR Pre-rendered products --- */}
-        {products.map(p => <ProductCard key={p.id} product={p} />)}
-
-        {/* --- Dynamic Pagination (Client Fetch) --- */}
-        {hasMore ? (
-          <button onClick={loadMore} style={{ margin: '16px' }}>Load More</button>
-        ) : (
-          <p>All products loaded</p>
-        )}
-      </main>
+      <h1>{categoryMeta.heading}</h1>
+      {products.map(p => <ProductCard key={p.id} product={p} />)}
+      {hasMore ? (
+        <button onClick={loadMore} style={{ margin: '16px' }}>Load More</button>
+      ) : (
+        <p>All products loaded</p>
+      )}
     </>
   );
 }
 
-// --- ISR: Static Generation + Revalidation ---
+// --- ISR: Build static HTML + JSON, revalidate every minute ---
 export async function getStaticProps({ params }) {
   const initialProducts = await fetchProducts(params.categoryId, 1, 10);
-
-  // --- Derive SEO metadata from category or first product ---
   const categoryMeta = {
-    title: `Shop ${params.categoryId} Furniture Online | ufurnish.com`,
-    description: `Browse our ${params.categoryId} collection — discover, compare, and shop the latest furniture styles on ufurnish.com.`,
-    image: initialProducts[0]?.meta.image ?? 'https://via.placeholder.com/600x400',
+    title: `Shop ${params.categoryId} Furniture | ufurnish.com`,
+    description: `Browse ${params.categoryId} furniture — sofas, beds, tables and more. Compare top retailers easily on ufurnish.com.`,
+    image: initialProducts[0]?.meta.image,
     heading: `Explore ${params.categoryId}`,
   };
 
   return {
-    props: {
-      categoryId: params.categoryId,
-      initialProducts,
-      categoryMeta,
-    },
-    revalidate: 60, // Regenerate every 60 seconds
+    props: { categoryId: params.categoryId, initialProducts, categoryMeta },
+    revalidate: 60,
   };
 }
 
-// --- ISR: Pre-build popular categories ---
+// --- ISR: Pre-generate top categories ---
 export async function getStaticPaths() {
   const topCategories = ['sofas', 'beds', 'tables'];
   return {
@@ -94,3 +79,10 @@ export async function getStaticPaths() {
     fallback: 'blocking',
   };
 }
+
+// --- Attach layout (used by _app.js) ---
+CategoryPage.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>;
+};
+
+export default CategoryPage;
