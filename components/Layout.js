@@ -8,7 +8,6 @@ export default function Layout({ children, title, description, image }) {
 
   return (
     <>
-      {/* --- Default SEO metadata --- */}
       <Head>
         <title>{title || defaultTitle}</title>
         <meta name="description" content={description || defaultDescription} />
