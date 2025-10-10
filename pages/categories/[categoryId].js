@@ -1,11 +1,10 @@
 // pages/categories/[categoryId].js
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import ProductCard from '../../components/ProductCard';
 
-// Fake API function to simulate server-side filtering and pagination
+// Fake API to simulate fetching products from server
 async function fetchProducts(categoryId, page = 1, pageSize = 10) {
-  // Simulate 50 products per category
   const allProducts = Array.from({ length: 50 }, (_, i) => ({
     id: `${categoryId}-${i + 1}`,
     name: `Product ${i + 1} in Category ${categoryId}`,
@@ -17,55 +16,49 @@ async function fetchProducts(categoryId, page = 1, pageSize = 10) {
   return allProducts.slice(start, end);
 }
 
-export default function CategoryPage() {
-  const router = useRouter();
-  const { categoryId } = router.query;
-
-  const [products, setProducts] = useState([]);
-  const [page, setPage] = useState(1);
+export default function CategoryPage({ initialProducts, categoryId }) {
+  const [products, setProducts] = useState(initialProducts);
+  const [page, setPage] = useState(2); // page 1 already loaded
   const [hasMore, setHasMore] = useState(true);
   const pageSize = 10;
 
-//   useEffect(() => {
-//     if (!categoryId) return;
-
-//     async function loadProducts() {
-//       const newProducts = await fetchProducts(categoryId, page, pageSize);
-//       setProducts(prev => [...prev, ...newProducts]);
-//       if (newProducts.length < pageSize) setHasMore(false);
-//     }
-
-//     loadProducts();
-//   }, [categoryId, page]);
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-        ([entry]) => {
-            if (entry.isIntersecting && hasMore) loadMore();
-        },
-        { threshold: 1 }
-        );
-    
-        const el = document.querySelector('#load-more-trigger');
-        if (el) observer.observe(el);
-    
-        return () => observer.disconnect();
-    }, [hasMore]);
-
-  const loadMore = () => setPage(prev => prev + 1);
+  const loadMore = async () => {
+    const newProducts = await fetchProducts(categoryId, page, pageSize);
+    setProducts(prev => [...prev, ...newProducts]);
+    setPage(prev => prev + 1);
+    if (newProducts.length < pageSize) setHasMore(false);
+  };
 
   return (
     <div>
       <h1>Category {categoryId}</h1>
-      <div>
-        {products.map(product => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </div>
+      {products.map(p => <ProductCard key={p.id} product={p} />)}
       {hasMore ? (
-       <div id="load-more-trigger" /> 
+        <button onClick={loadMore} style={{ margin: '16px' }}>Load More</button>
       ) : (
         <p>All products loaded</p>
       )}
     </div>
   );
+}
+
+// --- ISR: pre-generate popular categories ---
+export async function getStaticProps({ params }) {
+  const initialProducts = await fetchProducts(params.categoryId, 1, 10);
+  return {
+    props: {
+      categoryId: params.categoryId,
+      initialProducts,
+    },
+    revalidate: 30, // regenerate this page every 30s
+  };
+}
+
+export async function getStaticPaths() {
+  // Pre-render top categories
+  const topCategories = ['sofas', 'beds', 'tables'];
+  return {
+    paths: topCategories.map(c => ({ params: { categoryId: c } })),
+    fallback: 'blocking', // other categories generated on first request
+  };
 }
