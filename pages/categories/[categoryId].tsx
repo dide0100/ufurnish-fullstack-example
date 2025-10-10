@@ -6,6 +6,7 @@
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import { useState } from 'react'
 import type { Product, ApiResponse } from '../../types/product.js'
+import { getBaseUrl } from '../../lib/config'
 
 interface CategoryPageProps {
   categoryId: string
@@ -58,8 +59,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 // ISR: pre-render + revalidate every 60s
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const categoryId = params?.categoryId as string
+  const baseUrl = getBaseUrl()
 
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/v1/products/${categoryId}`)
+  const res = await fetch(`${baseUrl}/api/v1/products/${categoryId}`)
   const json: ApiResponse<Product[]> = await res.json()
 
   if (!json.success || !json.data) {
