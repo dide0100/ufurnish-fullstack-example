@@ -26,17 +26,30 @@ export default function CategoryPage() {
   const [hasMore, setHasMore] = useState(true);
   const pageSize = 10;
 
-  useEffect(() => {
-    if (!categoryId) return;
+//   useEffect(() => {
+//     if (!categoryId) return;
 
-    async function loadProducts() {
-      const newProducts = await fetchProducts(categoryId, page, pageSize);
-      setProducts(prev => [...prev, ...newProducts]);
-      if (newProducts.length < pageSize) setHasMore(false);
-    }
+//     async function loadProducts() {
+//       const newProducts = await fetchProducts(categoryId, page, pageSize);
+//       setProducts(prev => [...prev, ...newProducts]);
+//       if (newProducts.length < pageSize) setHasMore(false);
+//     }
 
-    loadProducts();
-  }, [categoryId, page]);
+//     loadProducts();
+//   }, [categoryId, page]);
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (entry.isIntersecting && hasMore) loadMore();
+        },
+        { threshold: 1 }
+        );
+    
+        const el = document.querySelector('#load-more-trigger');
+        if (el) observer.observe(el);
+    
+        return () => observer.disconnect();
+    }, [hasMore]);
 
   const loadMore = () => setPage(prev => prev + 1);
 
@@ -49,9 +62,7 @@ export default function CategoryPage() {
         ))}
       </div>
       {hasMore ? (
-        <button onClick={loadMore} style={{ margin: '16px' }}>
-          Load More
-        </button>
+       <div id="load-more-trigger" /> 
       ) : (
         <p>All products loaded</p>
       )}
