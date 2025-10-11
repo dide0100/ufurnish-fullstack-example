@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "2abe8e84-b3a1-4a4a-9166-fc1708866e68",
+    "name": "Office chair 1",
+    "price": 20.8,
+    "stock": 10,
+    "category": "furniture",
+    "image": "furniture/office_chair_1.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "bdb2ddab-1907-4032-bf33-0d9075d7a1a7",
+    "name": "Sofa 2",
+    "price": 21.6,
+    "stock": 15,
+    "category": "furniture",
+    "image": "furniture/sofa_2.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "62a23aa2-f1e3-4bc1-99c0-9ec4ff4fbc14",
+    "name": "Table 3",
+    "price": 22.4,
+    "stock": 20,
+    "category": "furniture",
+    "image": "furniture/table_3.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "5726af2a-0f86-4e90-8d76-694d48355e0f",
+    "name": "Office chair 4",
+    "price": 23.2,
+    "stock": 25,
+    "category": "furniture",
+    "image": "furniture/office_chair_4.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "36e06b51-8bb8-4891-b1f7-ad786d93a25b",
+    "name": "Sofa 5",
+    "price": 24.0,
+    "stock": 30,
+    "category": "furniture",
+    "image": "furniture/sofa_5.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "a5bd1db4-0a02-40b0-b770-0dcb4b4905f5",
+    "name": "Table 6",
+    "price": 24.8,
+    "stock": 35,
+    "category": "furniture",
+    "image": "furniture/table_6.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "6618e088-e3ed-437d-889c-a5c2150930e6",
+    "name": "Office chair 7",
+    "price": 25.6,
+    "stock": 40,
+    "category": "furniture",
+    "image": "furniture/office_chair_7.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "b6dd9fab-3d97-4ead-b38e-4102386bcf7d",
+    "name": "Sofa 8",
+    "price": 26.4,
+    "stock": 45,
+    "category": "furniture",
+    "image": "furniture/sofa_8.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "4b05f180-f7f8-4483-ae4f-5bd856a9146e",
+    "name": "Table 9",
+    "price": 27.2,
+    "stock": 50,
+    "category": "furniture",
+    "image": "furniture/table_9.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "c652baf6-4acb-4efc-8360-401dc5645aeb",
+    "name": "Office chair 10",
+    "price": 28.0,
+    "stock": 55,
+    "category": "furniture",
+    "image": "furniture/office_chair_10.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "c838d11c-26af-4792-9efc-d3c4a8773b7b",
+    "name": "Sofa 11",
+    "price": 28.8,
+    "stock": 60,
+    "category": "furniture",
+    "image": "furniture/sofa_11.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "20137036-3f70-43aa-9460-c23a6bacfb6b",
+    "name": "Table 12",
+    "price": 29.6,
+    "stock": 65,
+    "category": "furniture",
+    "image": "furniture/table_12.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "1b159c42-20ff-46ac-b0bf-4f0f3a05a6f0",
+    "name": "Office chair 13",
+    "price": 30.4,
+    "stock": 70,
+    "category": "furniture",
+    "image": "furniture/office_chair_13.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "e5976814-f982-4b5b-9155-eb1b0c4029b5",
+    "name": "Sofa 14",
+    "price": 31.2,
+    "stock": 75,
+    "category": "furniture",
+    "image": "furniture/sofa_14.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "36a25ac5-da18-43cf-bfc9-413280b77239",
+    "name": "Table 15",
+    "price": 32.0,
+    "stock": 80,
+    "category": "furniture",
+    "image": "furniture/table_15.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "9da701c6-68f2-41f7-9756-cefd83f77229",
+    "name": "Office chair 16",
+    "price": 32.8,
+    "stock": 85,
+    "category": "furniture",
+    "image": "furniture/office_chair_16.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "aadfdf9b-7ced-4295-bce9-915aa709b60d",
+    "name": "Sofa 17",
+    "price": 33.6,
+    "stock": 90,
+    "category": "furniture",
+    "image": "furniture/sofa_17.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "f2253c8c-4e89-4e10-a4ac-0620012347dc",
+    "name": "Table 18",
+    "price": 34.4,
+    "stock": 95,
+    "category": "furniture",
+    "image": "furniture/table_18.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "66175f60-0a3e-4f0a-a3ea-44f8a7eebdf8",
+    "name": "Office chair 19",
+    "price": 35.2,
+    "stock": 100,
+    "category": "furniture",
+    "image": "furniture/office_chair_19.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "62f81ec4-b72b-4d9f-b898-562a243ac85b",
+    "name": "Sofa 20",
+    "price": 36.0,
+    "stock": 105,
+    "category": "furniture",
+    "image": "furniture/sofa_20.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "93f6cf7f-e673-43a7-88ed-1b67eb9840e8",
+    "name": "Table 21",
+    "price": 36.8,
+    "stock": 110,
+    "category": "furniture",
+    "image": "furniture/table_21.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "f1d8cab5-d2e9-43cb-a27e-08b282516d0c",
+    "name": "Office chair 22",
+    "price": 37.6,
+    "stock": 115,
+    "category": "furniture",
+    "image": "furniture/office_chair_22.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "c5df9c07-412a-4107-a9b9-a7de76b6a8bb",
+    "name": "Sofa 23",
+    "price": 38.4,
+    "stock": 120,
+    "category": "furniture",
+    "image": "furniture/sofa_23.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "8df0167c-5d6e-45da-9778-133aaceaf322",
+    "name": "Table 24",
+    "price": 39.2,
+    "stock": 125,
+    "category": "furniture",
+    "image": "furniture/table_24.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "aa56e99b-b669-4717-bc6b-d64b6654688c",
+    "name": "Office chair 25",
+    "price": 40.0,
+    "stock": 130,
+    "category": "furniture",
+    "image": "furniture/office_chair_25.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "aaa9079a-6b96-413d-a5f2-aa311671acd1",
+    "name": "Sofa 26",
+    "price": 40.8,
+    "stock": 135,
+    "category": "furniture",
+    "image": "furniture/sofa_26.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "9580734a-cc98-4194-8812-fdc94a3e2c4b",
+    "name": "Table 27",
+    "price": 41.6,
+    "stock": 140,
+    "category": "furniture",
+    "image": "furniture/table_27.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "50e83344-1244-4c9b-9acd-3521ceb02941",
+    "name": "Office chair 28",
+    "price": 42.4,
+    "stock": 145,
+    "category": "furniture",
+    "image": "furniture/office_chair_28.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "33deb8b6-54ab-494f-89bc-e1487c0c1109",
+    "name": "Sofa 29",
+    "price": 43.2,
+    "stock": 150,
+    "category": "furniture",
+    "image": "furniture/sofa_29.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "424a5ccd-9758-4f7a-87b5-eb1a3a7e7720",
+    "name": "Table 30",
+    "price": 44.0,
+    "stock": 155,
+    "category": "furniture",
+    "image": "furniture/table_30.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "65a6214e-5c1e-4c69-bbb0-ad876ddd56de",
+    "name": "Office chair 31",
+    "price": 44.8,
+    "stock": 160,
+    "category": "furniture",
+    "image": "furniture/office_chair_31.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "1565378c-4ac1-4cf3-a048-dc597f94801b",
+    "name": "Sofa 32",
+    "price": 45.6,
+    "stock": 165,
+    "category": "furniture",
+    "image": "furniture/sofa_32.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "3586c53b-c9bf-47b6-8ecf-4bcbc61f1341",
+    "name": "Table 33",
+    "price": 46.4,
+    "stock": 170,
+    "category": "furniture",
+    "image": "furniture/table_33.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "1c2ad425-bf9e-43a0-a5ef-b048efc02893",
+    "name": "Office chair 34",
+    "price": 47.2,
+    "stock": 175,
+    "category": "furniture",
+    "image": "furniture/office_chair_34.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "ed18221a-aaac-46a6-98f8-eb662ab8e527",
+    "name": "Sofa 35",
+    "price": 48.0,
+    "stock": 180,
+    "category": "furniture",
+    "image": "furniture/sofa_35.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "8aa9eb30-f242-41a5-beda-018661e86188",
+    "name": "Table 36",
+    "price": 48.8,
+    "stock": 185,
+    "category": "furniture",
+    "image": "furniture/table_36.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "5e365a66-70aa-4035-a513-4472915d57eb",
+    "name": "Office chair 37",
+    "price": 49.6,
+    "stock": 190,
+    "category": "furniture",
+    "image": "furniture/office_chair_37.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "b9dc14cc-67be-4ef3-a919-f5452672931e",
+    "name": "Sofa 38",
+    "price": 50.4,
+    "stock": 195,
+    "category": "furniture",
+    "image": "furniture/sofa_38.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "d29e8ba7-c952-4e6f-9588-a1eda279d222",
+    "name": "Table 39",
+    "price": 51.2,
+    "stock": 200,
+    "category": "furniture",
+    "image": "furniture/table_39.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "f48c208d-ca37-4870-ab0a-85b2b31be1d0",
+    "name": "Office chair 40",
+    "price": 52.0,
+    "stock": 205,
+    "category": "furniture",
+    "image": "furniture/office_chair_40.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "ccfa37a5-fa7f-4050-b281-ae9c3a7e65b7",
+    "name": "Sofa 41",
+    "price": 52.8,
+    "stock": 210,
+    "category": "furniture",
+    "image": "furniture/sofa_41.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "5e4f8772-ed58-48c3-8d50-20b080ad62d7",
+    "name": "Table 42",
+    "price": 53.6,
+    "stock": 215,
+    "category": "furniture",
+    "image": "furniture/table_42.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "462429ba-4a6e-4980-ba2b-287ee7031385",
+    "name": "Office chair 43",
+    "price": 54.4,
+    "stock": 220,
+    "category": "furniture",
+    "image": "furniture/office_chair_43.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "58d73ac6-6682-4b9b-9946-e7bf990e6153",
+    "name": "Sofa 44",
+    "price": 55.2,
+    "stock": 225,
+    "category": "furniture",
+    "image": "furniture/sofa_44.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "06ae334f-e1ac-49cb-8dba-4fde8436995e",
+    "name": "Table 45",
+    "price": 56.0,
+    "stock": 230,
+    "category": "furniture",
+    "image": "furniture/table_45.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "0573be37-6dc0-45ae-90ae-6d46e0a48001",
+    "name": "Office chair 46",
+    "price": 56.8,
+    "stock": 235,
+    "category": "furniture",
+    "image": "furniture/office_chair_46.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "bc77bb40-bdf1-49d2-9e6f-bf1aed61168f",
+    "name": "Sofa 47",
+    "price": 57.6,
+    "stock": 240,
+    "category": "furniture",
+    "image": "furniture/sofa_47.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "838082a8-4bcf-493a-bf57-5d259d00e022",
+    "name": "Table 48",
+    "price": 58.4,
+    "stock": 245,
+    "category": "furniture",
+    "image": "furniture/table_48.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "b90ef3e8-1f52-4f2e-b4fb-aed03af30de8",
+    "name": "Office chair 49",
+    "price": 59.2,
+    "stock": 250,
+    "category": "furniture",
+    "image": "furniture/office_chair_49.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "e3ace21f-2c8e-4856-8f5a-36a7928f7855",
+    "name": "Sofa 50",
+    "price": 60.0,
+    "stock": 255,
+    "category": "furniture",
+    "image": "furniture/sofa_50.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "0df0e0ee-364d-4a77-8b0b-d50ddb70e96f",
+    "name": "Table 51",
+    "price": 60.8,
+    "stock": 260,
+    "category": "furniture",
+    "image": "furniture/table_51.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "b6ad98d2-87e7-4e9b-83a6-3d43c57c74aa",
+    "name": "Office chair 52",
+    "price": 61.6,
+    "stock": 265,
+    "category": "furniture",
+    "image": "furniture/office_chair_52.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "9c242d0b-860c-4a7c-b9e6-e6b0528123ea",
+    "name": "Sofa 53",
+    "price": 62.4,
+    "stock": 270,
+    "category": "furniture",
+    "image": "furniture/sofa_53.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "64b15114-43b9-40c1-b6b7-fd4542abd829",
+    "name": "Table 54",
+    "price": 63.2,
+    "stock": 275,
+    "category": "furniture",
+    "image": "furniture/table_54.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "e0b21956-cac1-4686-9272-9b38556071e5",
+    "name": "Office chair 55",
+    "price": 64.0,
+    "stock": 280,
+    "category": "furniture",
+    "image": "furniture/office_chair_55.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "4cffa3bd-93af-4a90-99a5-4fe9438eee4e",
+    "name": "Sofa 56",
+    "price": 64.8,
+    "stock": 285,
+    "category": "furniture",
+    "image": "furniture/sofa_56.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "483bef54-46fd-4236-ad4f-669eaee3cc7e",
+    "name": "Table 57",
+    "price": 65.6,
+    "stock": 290,
+    "category": "furniture",
+    "image": "furniture/table_57.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "a93c11a8-1cda-48c1-be01-3a5f85d409cc",
+    "name": "Office chair 58",
+    "price": 66.4,
+    "stock": 295,
+    "category": "furniture",
+    "image": "furniture/office_chair_58.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "44969cf3-a152-4d57-bc2d-9e345d9d2d03",
+    "name": "Sofa 59",
+    "price": 67.2,
+    "stock": 300,
+    "category": "furniture",
+    "image": "furniture/sofa_59.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "2e33357f-bb8f-497b-b2a4-a5918cd8329f",
+    "name": "Table 60",
+    "price": 68.0,
+    "stock": 305,
+    "category": "furniture",
+    "image": "furniture/table_60.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "59662e13-c7d0-4171-88b3-10424d9febb0",
+    "name": "Office chair 61",
+    "price": 68.8,
+    "stock": 310,
+    "category": "furniture",
+    "image": "furniture/office_chair_61.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "cc44b188-b096-4943-bbf6-36f2779182cc",
+    "name": "Sofa 62",
+    "price": 69.6,
+    "stock": 315,
+    "category": "furniture",
+    "image": "furniture/sofa_62.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "b7f65d39-a7ba-4615-a659-5fab3cdc8d58",
+    "name": "Table 63",
+    "price": 70.4,
+    "stock": 320,
+    "category": "furniture",
+    "image": "furniture/table_63.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "7f77386d-783a-4c0c-acd6-ac97cba74044",
+    "name": "Office chair 64",
+    "price": 71.2,
+    "stock": 325,
+    "category": "furniture",
+    "image": "furniture/office_chair_64.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "f2a37dcb-962e-471c-9233-7d4e97dc287b",
+    "name": "Sofa 65",
+    "price": 72.0,
+    "stock": 330,
+    "category": "furniture",
+    "image": "furniture/sofa_65.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "e7ac2ec4-7e01-4c66-8fe7-9785c9fec23d",
+    "name": "Table 66",
+    "price": 72.8,
+    "stock": 335,
+    "category": "furniture",
+    "image": "furniture/table_66.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "5b07ec14-ff58-418e-87c1-f3911bf49ed5",
+    "name": "Office chair 67",
+    "price": 73.6,
+    "stock": 340,
+    "category": "furniture",
+    "image": "furniture/office_chair_67.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "5ef2f040-bb16-4c3d-8b63-6ee664d30840",
+    "name": "Sofa 68",
+    "price": 74.4,
+    "stock": 345,
+    "category": "furniture",
+    "image": "furniture/sofa_68.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "3a20ee46-03ad-45c8-990d-5d3c98ad69d3",
+    "name": "Table 69",
+    "price": 75.2,
+    "stock": 350,
+    "category": "furniture",
+    "image": "furniture/table_69.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "09acf7c5-8402-4e33-b6a7-4447612f1d09",
+    "name": "Office chair 70",
+    "price": 76.0,
+    "stock": 355,
+    "category": "furniture",
+    "image": "furniture/office_chair_70.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "9b248846-126c-4f84-b6be-53f688ba5641",
+    "name": "Sofa 71",
+    "price": 76.8,
+    "stock": 360,
+    "category": "furniture",
+    "image": "furniture/sofa_71.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "149bd635-3ddd-4cd3-b787-ef0e1b7bf8b8",
+    "name": "Table 72",
+    "price": 77.6,
+    "stock": 365,
+    "category": "furniture",
+    "image": "furniture/table_72.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "f2ae6220-2f42-4bdc-8df5-53ec69112a58",
+    "name": "Office chair 73",
+    "price": 78.4,
+    "stock": 370,
+    "category": "furniture",
+    "image": "furniture/office_chair_73.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "d0e3304d-7599-480a-8e83-601d0430c3c4",
+    "name": "Sofa 74",
+    "price": 79.2,
+    "stock": 375,
+    "category": "furniture",
+    "image": "furniture/sofa_74.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "5a0bae3d-cb55-4ac1-8c0b-787372acf1e6",
+    "name": "Table 75",
+    "price": 80.0,
+    "stock": 380,
+    "category": "furniture",
+    "image": "furniture/table_75.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "f6a7ec8c-eb48-4f84-a4d0-9850d5a28716",
+    "name": "Office chair 76",
+    "price": 80.8,
+    "stock": 385,
+    "category": "furniture",
+    "image": "furniture/office_chair_76.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "f6b2a3bd-6eac-4bfc-8b6b-2c4c3c0ea31c",
+    "name": "Sofa 77",
+    "price": 81.6,
+    "stock": 390,
+    "category": "furniture",
+    "image": "furniture/sofa_77.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "511c3498-92cd-4811-8f68-13ce30cb49f9",
+    "name": "Table 78",
+    "price": 82.4,
+    "stock": 395,
+    "category": "furniture",
+    "image": "furniture/table_78.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "d1fa86cc-b763-4d94-9a9b-c2f68de9a797",
+    "name": "Office chair 79",
+    "price": 83.2,
+    "stock": 400,
+    "category": "furniture",
+    "image": "furniture/office_chair_79.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "ba820580-fcaa-4427-a701-dbd77774db93",
+    "name": "Sofa 80",
+    "price": 84.0,
+    "stock": 405,
+    "category": "furniture",
+    "image": "furniture/sofa_80.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "0502f707-5b81-4ba9-a614-20c37afc5f08",
+    "name": "Table 81",
+    "price": 84.8,
+    "stock": 410,
+    "category": "furniture",
+    "image": "furniture/table_81.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "30f32fe3-fb13-4bea-90eb-015d6bdbc420",
+    "name": "Office chair 82",
+    "price": 85.6,
+    "stock": 415,
+    "category": "furniture",
+    "image": "furniture/office_chair_82.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "5a8a83c7-be8d-429d-b2ae-938677ad97ad",
+    "name": "Sofa 83",
+    "price": 86.4,
+    "stock": 420,
+    "category": "furniture",
+    "image": "furniture/sofa_83.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "e8360768-8e1a-49a6-a25e-47844b6c1311",
+    "name": "Table 84",
+    "price": 87.2,
+    "stock": 425,
+    "category": "furniture",
+    "image": "furniture/table_84.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "d74fb055-ff78-4d53-b6c7-71ecb1f702fd",
+    "name": "Office chair 85",
+    "price": 88.0,
+    "stock": 430,
+    "category": "furniture",
+    "image": "furniture/office_chair_85.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "be135906-f353-4d38-9a59-3b5bab13ac56",
+    "name": "Sofa 86",
+    "price": 88.8,
+    "stock": 435,
+    "category": "furniture",
+    "image": "furniture/sofa_86.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "4f7cf9d6-7cb5-4395-ac0a-950ab01ce177",
+    "name": "Table 87",
+    "price": 89.6,
+    "stock": 440,
+    "category": "furniture",
+    "image": "furniture/table_87.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "e634c476-96f3-4acc-87f4-432d9a1a932b",
+    "name": "Office chair 88",
+    "price": 90.4,
+    "stock": 445,
+    "category": "furniture",
+    "image": "furniture/office_chair_88.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "a3f28a88-ed81-4cd2-80c8-969265dc8c75",
+    "name": "Sofa 89",
+    "price": 91.2,
+    "stock": 450,
+    "category": "furniture",
+    "image": "furniture/sofa_89.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "0ad66df4-8ac5-48fd-99b9-8ba40a9dbf1f",
+    "name": "Table 90",
+    "price": 92.0,
+    "stock": 455,
+    "category": "furniture",
+    "image": "furniture/table_90.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "646af0a8-78c7-4b1e-a4be-2db7fc64e5b3",
+    "name": "Office chair 91",
+    "price": 92.8,
+    "stock": 460,
+    "category": "furniture",
+    "image": "furniture/office_chair_91.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "0a4d0f13-7633-4160-b445-b85a28fe98da",
+    "name": "Sofa 92",
+    "price": 93.6,
+    "stock": 465,
+    "category": "furniture",
+    "image": "furniture/sofa_92.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "b1848a8d-2286-4722-8e61-486aaeed08a9",
+    "name": "Table 93",
+    "price": 94.4,
+    "stock": 470,
+    "category": "furniture",
+    "image": "furniture/table_93.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "d99cede1-86fd-489d-9eae-dc329cdc38a8",
+    "name": "Office chair 94",
+    "price": 95.2,
+    "stock": 475,
+    "category": "furniture",
+    "image": "furniture/office_chair_94.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "c13e19af-8b4c-4636-83d3-9e09433b74b8",
+    "name": "Sofa 95",
+    "price": 96.0,
+    "stock": 480,
+    "category": "furniture",
+    "image": "furniture/sofa_95.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "a6b60ffe-7379-4341-aa99-ff3c1276ab32",
+    "name": "Table 96",
+    "price": 96.8,
+    "stock": 485,
+    "category": "furniture",
+    "image": "furniture/table_96.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "cbba91d1-e770-4188-b48b-eebbd0377851",
+    "name": "Office chair 97",
+    "price": 97.6,
+    "stock": 490,
+    "category": "furniture",
+    "image": "furniture/office_chair_97.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "f94a4c70-2637-4ea4-8ab3-4c40a2336c71",
+    "name": "Sofa 98",
+    "price": 98.4,
+    "stock": 495,
+    "category": "furniture",
+    "image": "furniture/sofa_98.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "051c909b-f729-4907-b9ad-f14d7b197f88",
+    "name": "Table 99",
+    "price": 99.2,
+    "stock": 500,
+    "category": "furniture",
+    "image": "furniture/table_99.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "638bf2f1-92fa-4588-9838-aae0e6a96782",
+    "name": "Office chair 100",
+    "price": 100.0,
+    "stock": 505,
+    "category": "furniture",
+    "image": "furniture/office_chair_100.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "c01ba523-835c-4846-afbb-615624969c68",
+    "name": "Lamp 1",
+    "price": 20.8,
+    "stock": 10,
+    "category": "lighting",
+    "image": "lighting/lamp_1.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "16586cc6-beca-4ac8-8a96-c98ab976bf92",
+    "name": "Chandelier 2",
+    "price": 21.6,
+    "stock": 15,
+    "category": "lighting",
+    "image": "lighting/chandelier_2.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "deb5efbe-c0d1-44a2-a80e-44e587586e80",
+    "name": "Floor lamp 3",
+    "price": 22.4,
+    "stock": 20,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_3.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "43ac0d7c-e3b0-47e7-9e85-8b85861882c4",
+    "name": "Lamp 4",
+    "price": 23.2,
+    "stock": 25,
+    "category": "lighting",
+    "image": "lighting/lamp_4.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "f0bab268-f5a9-42ea-a3aa-e6443a685867",
+    "name": "Chandelier 5",
+    "price": 24.0,
+    "stock": 30,
+    "category": "lighting",
+    "image": "lighting/chandelier_5.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "0a58c4da-a458-4e9b-b67b-1ad4022cfe59",
+    "name": "Floor lamp 6",
+    "price": 24.8,
+    "stock": 35,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_6.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "0168477e-99fa-446c-9eca-bd0aa42f80fe",
+    "name": "Lamp 7",
+    "price": 25.6,
+    "stock": 40,
+    "category": "lighting",
+    "image": "lighting/lamp_7.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "a5638baf-1ed6-4e9e-a0f6-18bd19300a0e",
+    "name": "Chandelier 8",
+    "price": 26.4,
+    "stock": 45,
+    "category": "lighting",
+    "image": "lighting/chandelier_8.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "9d73cb40-ddff-4b8b-bf65-2e82d0384960",
+    "name": "Floor lamp 9",
+    "price": 27.2,
+    "stock": 50,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_9.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "bd638770-b32e-4b0c-8caf-0aa5dbea46aa",
+    "name": "Lamp 10",
+    "price": 28.0,
+    "stock": 55,
+    "category": "lighting",
+    "image": "lighting/lamp_10.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "0b5676bd-e677-4bf0-824f-b22efb033fe8",
+    "name": "Chandelier 11",
+    "price": 28.8,
+    "stock": 60,
+    "category": "lighting",
+    "image": "lighting/chandelier_11.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "9b31d8d4-a51c-47c6-9faa-c9bcfbe92b1c",
+    "name": "Floor lamp 12",
+    "price": 29.6,
+    "stock": 65,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_12.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "d815f164-7033-4cfc-a958-35cc5ef659bd",
+    "name": "Lamp 13",
+    "price": 30.4,
+    "stock": 70,
+    "category": "lighting",
+    "image": "lighting/lamp_13.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "77f2d8e6-1578-42a1-b050-a6066585085c",
+    "name": "Chandelier 14",
+    "price": 31.2,
+    "stock": 75,
+    "category": "lighting",
+    "image": "lighting/chandelier_14.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "2299f0df-0840-4633-8f4e-034259765b7b",
+    "name": "Floor lamp 15",
+    "price": 32.0,
+    "stock": 80,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_15.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "05daad69-c902-44a0-b6ad-849443faad32",
+    "name": "Lamp 16",
+    "price": 32.8,
+    "stock": 85,
+    "category": "lighting",
+    "image": "lighting/lamp_16.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "9f40f0dc-ed92-41cd-903b-4b5876d83d27",
+    "name": "Chandelier 17",
+    "price": 33.6,
+    "stock": 90,
+    "category": "lighting",
+    "image": "lighting/chandelier_17.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "d248de28-a629-41b2-b134-4f68b9328b41",
+    "name": "Floor lamp 18",
+    "price": 34.4,
+    "stock": 95,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_18.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "cde21915-4f85-4556-b5f5-54fb9d14ccd0",
+    "name": "Lamp 19",
+    "price": 35.2,
+    "stock": 100,
+    "category": "lighting",
+    "image": "lighting/lamp_19.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "95d48ba1-7e45-4e2c-9e1e-477a860a69ad",
+    "name": "Chandelier 20",
+    "price": 36.0,
+    "stock": 105,
+    "category": "lighting",
+    "image": "lighting/chandelier_20.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "99d8b8e8-8302-43bb-9c17-9e6b1bf0019c",
+    "name": "Floor lamp 21",
+    "price": 36.8,
+    "stock": 110,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_21.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "aa8d24cd-8e0a-464e-8e92-b827561b7b7b",
+    "name": "Lamp 22",
+    "price": 37.6,
+    "stock": 115,
+    "category": "lighting",
+    "image": "lighting/lamp_22.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "c815d037-1028-451d-9c23-36969e719826",
+    "name": "Chandelier 23",
+    "price": 38.4,
+    "stock": 120,
+    "category": "lighting",
+    "image": "lighting/chandelier_23.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "eb7646ec-e1a0-499e-b35b-de73ca3067d4",
+    "name": "Floor lamp 24",
+    "price": 39.2,
+    "stock": 125,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_24.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "adbbc800-ce98-4039-b621-eeee2a196a68",
+    "name": "Lamp 25",
+    "price": 40.0,
+    "stock": 130,
+    "category": "lighting",
+    "image": "lighting/lamp_25.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "6a3c8e2c-ab81-438e-81b0-3e1fe4aae8ba",
+    "name": "Chandelier 26",
+    "price": 40.8,
+    "stock": 135,
+    "category": "lighting",
+    "image": "lighting/chandelier_26.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "0494edb2-4e61-4380-be92-1ec961cf233d",
+    "name": "Floor lamp 27",
+    "price": 41.6,
+    "stock": 140,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_27.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "10456358-ab10-4fbd-a991-41f6f666b0ba",
+    "name": "Lamp 28",
+    "price": 42.4,
+    "stock": 145,
+    "category": "lighting",
+    "image": "lighting/lamp_28.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "a714a05c-b16e-4442-84fc-18f667de8025",
+    "name": "Chandelier 29",
+    "price": 43.2,
+    "stock": 150,
+    "category": "lighting",
+    "image": "lighting/chandelier_29.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "04bca738-5ed8-4874-a14c-177e759773fd",
+    "name": "Floor lamp 30",
+    "price": 44.0,
+    "stock": 155,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_30.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "a5cdfb53-25e6-4681-b01f-5a68c11d0e45",
+    "name": "Lamp 31",
+    "price": 44.8,
+    "stock": 160,
+    "category": "lighting",
+    "image": "lighting/lamp_31.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "0dcea4fb-6e74-4686-b59e-3b3753cbec23",
+    "name": "Chandelier 32",
+    "price": 45.6,
+    "stock": 165,
+    "category": "lighting",
+    "image": "lighting/chandelier_32.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "5ddbaccb-6e8c-4647-9f5a-abbb3ffb0d6c",
+    "name": "Floor lamp 33",
+    "price": 46.4,
+    "stock": 170,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_33.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "ae77902d-10ef-419b-b05a-964dc354f027",
+    "name": "Lamp 34",
+    "price": 47.2,
+    "stock": 175,
+    "category": "lighting",
+    "image": "lighting/lamp_34.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "affbd1a5-b706-43fe-8f87-d2057696da89",
+    "name": "Chandelier 35",
+    "price": 48.0,
+    "stock": 180,
+    "category": "lighting",
+    "image": "lighting/chandelier_35.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "ccd0f2d9-3e4e-44d8-bd33-bea1e85e4e24",
+    "name": "Floor lamp 36",
+    "price": 48.8,
+    "stock": 185,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_36.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "d69ebd9a-8715-4fbc-aa87-f563fad0f923",
+    "name": "Lamp 37",
+    "price": 49.6,
+    "stock": 190,
+    "category": "lighting",
+    "image": "lighting/lamp_37.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "3923aa66-92b6-403d-ab7d-8417eb2183bb",
+    "name": "Chandelier 38",
+    "price": 50.4,
+    "stock": 195,
+    "category": "lighting",
+    "image": "lighting/chandelier_38.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "2efb63a4-f891-4599-a7ac-06d5af9022ca",
+    "name": "Floor lamp 39",
+    "price": 51.2,
+    "stock": 200,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_39.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "36226a22-72e6-4176-a23a-ae397841d5b5",
+    "name": "Lamp 40",
+    "price": 52.0,
+    "stock": 205,
+    "category": "lighting",
+    "image": "lighting/lamp_40.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "c94f82f3-ee50-436c-bfad-68e42c02a965",
+    "name": "Chandelier 41",
+    "price": 52.8,
+    "stock": 210,
+    "category": "lighting",
+    "image": "lighting/chandelier_41.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "e1dccf48-c79b-42d3-85f5-2a4bc045f2c9",
+    "name": "Floor lamp 42",
+    "price": 53.6,
+    "stock": 215,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_42.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "b0b1315a-4128-44ae-bf76-595c0f0ad0ad",
+    "name": "Lamp 43",
+    "price": 54.4,
+    "stock": 220,
+    "category": "lighting",
+    "image": "lighting/lamp_43.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "647350ca-3d43-46c5-8c5b-364438ccdf49",
+    "name": "Chandelier 44",
+    "price": 55.2,
+    "stock": 225,
+    "category": "lighting",
+    "image": "lighting/chandelier_44.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "70d6ccd4-efbd-4093-bd42-935ee4fb5b83",
+    "name": "Floor lamp 45",
+    "price": 56.0,
+    "stock": 230,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_45.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "f597c760-5a18-42cf-940a-d87c13beafee",
+    "name": "Lamp 46",
+    "price": 56.8,
+    "stock": 235,
+    "category": "lighting",
+    "image": "lighting/lamp_46.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "231373ee-49e8-47e7-9552-e68f897658d1",
+    "name": "Chandelier 47",
+    "price": 57.6,
+    "stock": 240,
+    "category": "lighting",
+    "image": "lighting/chandelier_47.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "a5234ae9-81a2-40e9-ab74-5fa69cb7c1d3",
+    "name": "Floor lamp 48",
+    "price": 58.4,
+    "stock": 245,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_48.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "76bc9041-fd58-4d82-a3aa-d6a0177d714c",
+    "name": "Lamp 49",
+    "price": 59.2,
+    "stock": 250,
+    "category": "lighting",
+    "image": "lighting/lamp_49.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "9c049a2b-b332-4b4f-a82b-6acaf5bf06fa",
+    "name": "Chandelier 50",
+    "price": 60.0,
+    "stock": 255,
+    "category": "lighting",
+    "image": "lighting/chandelier_50.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "4ebc389b-fd89-4a55-b47a-19343f1d11a1",
+    "name": "Floor lamp 51",
+    "price": 60.8,
+    "stock": 260,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_51.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "4a1bf807-9466-4690-8ecf-d684a032b341",
+    "name": "Lamp 52",
+    "price": 61.6,
+    "stock": 265,
+    "category": "lighting",
+    "image": "lighting/lamp_52.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "a543c753-2568-4375-9760-7198cb53f9da",
+    "name": "Chandelier 53",
+    "price": 62.4,
+    "stock": 270,
+    "category": "lighting",
+    "image": "lighting/chandelier_53.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "8c6f98e4-c5c5-47c0-bdf5-cc7e5447c8c8",
+    "name": "Floor lamp 54",
+    "price": 63.2,
+    "stock": 275,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_54.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "34c8c103-fba5-47b7-8a0c-94d3c2d97356",
+    "name": "Lamp 55",
+    "price": 64.0,
+    "stock": 280,
+    "category": "lighting",
+    "image": "lighting/lamp_55.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "a2bc1f82-3a45-434b-8048-3fd4a2c07db5",
+    "name": "Chandelier 56",
+    "price": 64.8,
+    "stock": 285,
+    "category": "lighting",
+    "image": "lighting/chandelier_56.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "b30fa612-c977-44f3-95be-c3f65157f217",
+    "name": "Floor lamp 57",
+    "price": 65.6,
+    "stock": 290,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_57.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "3fc2dedd-dabe-4f01-9f1e-9e6e079f4c4d",
+    "name": "Lamp 58",
+    "price": 66.4,
+    "stock": 295,
+    "category": "lighting",
+    "image": "lighting/lamp_58.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "146b79e9-e5eb-4704-a4e5-112f136c2e13",
+    "name": "Chandelier 59",
+    "price": 67.2,
+    "stock": 300,
+    "category": "lighting",
+    "image": "lighting/chandelier_59.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "d12dfb1f-579d-4b7a-8e60-a2f66037d3ef",
+    "name": "Floor lamp 60",
+    "price": 68.0,
+    "stock": 305,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_60.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "b32b8950-1320-4116-9de1-7b12a4a83901",
+    "name": "Lamp 61",
+    "price": 68.8,
+    "stock": 310,
+    "category": "lighting",
+    "image": "lighting/lamp_61.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "d5349ac1-4dcf-443d-96c6-22625b270974",
+    "name": "Chandelier 62",
+    "price": 69.6,
+    "stock": 315,
+    "category": "lighting",
+    "image": "lighting/chandelier_62.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "82c59357-0d15-4190-b270-3b38eb942751",
+    "name": "Floor lamp 63",
+    "price": 70.4,
+    "stock": 320,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_63.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "6ef53630-38b4-45d8-818a-a455ec3ed047",
+    "name": "Lamp 64",
+    "price": 71.2,
+    "stock": 325,
+    "category": "lighting",
+    "image": "lighting/lamp_64.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "b00a581a-6dcd-43b5-b485-844ee4da443c",
+    "name": "Chandelier 65",
+    "price": 72.0,
+    "stock": 330,
+    "category": "lighting",
+    "image": "lighting/chandelier_65.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "94af8168-14ae-4ffe-a560-347180b5cb24",
+    "name": "Floor lamp 66",
+    "price": 72.8,
+    "stock": 335,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_66.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "0ff48bc3-377e-4878-b6f4-577032d27e91",
+    "name": "Lamp 67",
+    "price": 73.6,
+    "stock": 340,
+    "category": "lighting",
+    "image": "lighting/lamp_67.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "adf3f138-49a4-4be5-91f1-45cd0750138e",
+    "name": "Chandelier 68",
+    "price": 74.4,
+    "stock": 345,
+    "category": "lighting",
+    "image": "lighting/chandelier_68.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "c42cd7de-2747-41ab-b20c-515a7154a7d4",
+    "name": "Floor lamp 69",
+    "price": 75.2,
+    "stock": 350,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_69.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "bdd8f448-42b7-4c2c-be3a-4ada53294021",
+    "name": "Lamp 70",
+    "price": 76.0,
+    "stock": 355,
+    "category": "lighting",
+    "image": "lighting/lamp_70.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "cb3db376-cd1d-4484-9e86-b597dacc20be",
+    "name": "Chandelier 71",
+    "price": 76.8,
+    "stock": 360,
+    "category": "lighting",
+    "image": "lighting/chandelier_71.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "7c382e55-0e30-4a8f-a468-31701b35342b",
+    "name": "Floor lamp 72",
+    "price": 77.6,
+    "stock": 365,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_72.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "fe522a48-fd38-469b-941f-99ec75e7f4d7",
+    "name": "Lamp 73",
+    "price": 78.4,
+    "stock": 370,
+    "category": "lighting",
+    "image": "lighting/lamp_73.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "e66ec483-cea8-491b-817e-5ef01a3fda50",
+    "name": "Chandelier 74",
+    "price": 79.2,
+    "stock": 375,
+    "category": "lighting",
+    "image": "lighting/chandelier_74.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "61baacb3-1b32-4832-a93c-338477f9c1f3",
+    "name": "Floor lamp 75",
+    "price": 80.0,
+    "stock": 380,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_75.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "98893f35-a293-449d-9421-ed855a80cd5c",
+    "name": "Lamp 76",
+    "price": 80.8,
+    "stock": 385,
+    "category": "lighting",
+    "image": "lighting/lamp_76.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "253ed0b3-cf9b-4abe-9a50-acda543af19a",
+    "name": "Chandelier 77",
+    "price": 81.6,
+    "stock": 390,
+    "category": "lighting",
+    "image": "lighting/chandelier_77.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "96ee01ca-dfbc-407c-b2e9-6188164e9df4",
+    "name": "Floor lamp 78",
+    "price": 82.4,
+    "stock": 395,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_78.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "6eab09bf-773d-4038-a622-ced11ffe0593",
+    "name": "Lamp 79",
+    "price": 83.2,
+    "stock": 400,
+    "category": "lighting",
+    "image": "lighting/lamp_79.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "5743c722-c4db-4961-8c5a-f2178500a438",
+    "name": "Chandelier 80",
+    "price": 84.0,
+    "stock": 405,
+    "category": "lighting",
+    "image": "lighting/chandelier_80.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "ba1a6ef7-0684-4180-99ce-2457ac18eb64",
+    "name": "Floor lamp 81",
+    "price": 84.8,
+    "stock": 410,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_81.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "649a5826-ce0f-4828-8a6b-528f72e688e5",
+    "name": "Lamp 82",
+    "price": 85.6,
+    "stock": 415,
+    "category": "lighting",
+    "image": "lighting/lamp_82.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "3a76aec1-4ebb-493a-acbc-7dd09af5f4d2",
+    "name": "Chandelier 83",
+    "price": 86.4,
+    "stock": 420,
+    "category": "lighting",
+    "image": "lighting/chandelier_83.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "a5f79c56-91e6-4160-9040-dd58da643d67",
+    "name": "Floor lamp 84",
+    "price": 87.2,
+    "stock": 425,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_84.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "936b89cc-9869-4cc1-ae27-f24b97a27c7b",
+    "name": "Lamp 85",
+    "price": 88.0,
+    "stock": 430,
+    "category": "lighting",
+    "image": "lighting/lamp_85.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "a780bc1f-3336-4fd6-920b-bf5a3e4d7fcc",
+    "name": "Chandelier 86",
+    "price": 88.8,
+    "stock": 435,
+    "category": "lighting",
+    "image": "lighting/chandelier_86.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "7f594cfa-b063-49ae-8f74-f6bd5d0516aa",
+    "name": "Floor lamp 87",
+    "price": 89.6,
+    "stock": 440,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_87.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "187f27b5-d50f-4a19-979f-995b69004a41",
+    "name": "Lamp 88",
+    "price": 90.4,
+    "stock": 445,
+    "category": "lighting",
+    "image": "lighting/lamp_88.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "ebddaebc-e17e-4f59-b9b5-ab70f35e4544",
+    "name": "Chandelier 89",
+    "price": 91.2,
+    "stock": 450,
+    "category": "lighting",
+    "image": "lighting/chandelier_89.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "b3ff9b14-eaa5-4c0c-a422-d5b3306fc256",
+    "name": "Floor lamp 90",
+    "price": 92.0,
+    "stock": 455,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_90.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "57bb082b-bd8d-42ad-b270-052a53b488e0",
+    "name": "Lamp 91",
+    "price": 92.8,
+    "stock": 460,
+    "category": "lighting",
+    "image": "lighting/lamp_91.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "2baa6cef-cf5f-434f-9b2d-e7787e8cf215",
+    "name": "Chandelier 92",
+    "price": 93.6,
+    "stock": 465,
+    "category": "lighting",
+    "image": "lighting/chandelier_92.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "b59fc637-d2b4-4464-b7ad-0fabfad76ed6",
+    "name": "Floor lamp 93",
+    "price": 94.4,
+    "stock": 470,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_93.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "04b3c21b-85e8-4237-b2aa-a5c7fd434ba3",
+    "name": "Lamp 94",
+    "price": 95.2,
+    "stock": 475,
+    "category": "lighting",
+    "image": "lighting/lamp_94.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "313ed70c-6c31-4c04-91df-a8e28e21e998",
+    "name": "Chandelier 95",
+    "price": 96.0,
+    "stock": 480,
+    "category": "lighting",
+    "image": "lighting/chandelier_95.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "c4f43771-f917-41f0-a83f-7cecfa6561b1",
+    "name": "Floor lamp 96",
+    "price": 96.8,
+    "stock": 485,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_96.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "8f8eb4bb-307b-4ec1-807e-8c41dc50651a",
+    "name": "Lamp 97",
+    "price": 97.6,
+    "stock": 490,
+    "category": "lighting",
+    "image": "lighting/lamp_97.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "8215e779-1fcc-46b8-813b-a2808dc58f10",
+    "name": "Chandelier 98",
+    "price": 98.4,
+    "stock": 495,
+    "category": "lighting",
+    "image": "lighting/chandelier_98.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "1ba4046b-5843-4f22-94f9-43cc814d1d2e",
+    "name": "Floor lamp 99",
+    "price": 99.2,
+    "stock": 500,
+    "category": "lighting",
+    "image": "lighting/floor_lamp_99.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "c899e4cf-0d75-4a65-9923-5b1fd7e4c8e5",
+    "name": "Lamp 100",
+    "price": 100.0,
+    "stock": 505,
+    "category": "lighting",
+    "image": "lighting/lamp_100.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "e33b4450-c6ee-4077-947b-e91f382e43ec",
+    "name": "Vase 1",
+    "price": 20.8,
+    "stock": 10,
+    "category": "decor",
+    "image": "decor/vase_1.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "6d12fd2b-6978-4424-95ed-d0af05c8a662",
+    "name": "Painting 2",
+    "price": 21.6,
+    "stock": 15,
+    "category": "decor",
+    "image": "decor/painting_2.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "43038d7e-0379-48da-a015-f621da5f5203",
+    "name": "Decorative 3",
+    "price": 22.4,
+    "stock": 20,
+    "category": "decor",
+    "image": "decor/decorative_3.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "e3e7c8b3-88b5-48f4-ae2b-644bc5616545",
+    "name": "Vase 4",
+    "price": 23.2,
+    "stock": 25,
+    "category": "decor",
+    "image": "decor/vase_4.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "bea66a43-880a-4ef6-b291-351c397fbaf3",
+    "name": "Painting 5",
+    "price": 24.0,
+    "stock": 30,
+    "category": "decor",
+    "image": "decor/painting_5.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "e67a5153-f382-4cac-a5f8-60750e436645",
+    "name": "Decorative 6",
+    "price": 24.8,
+    "stock": 35,
+    "category": "decor",
+    "image": "decor/decorative_6.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "b7986288-c6b5-4048-adc9-fad2dc700c9b",
+    "name": "Vase 7",
+    "price": 25.6,
+    "stock": 40,
+    "category": "decor",
+    "image": "decor/vase_7.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "4a6e47b8-3e3c-4567-b680-e3eec16f3689",
+    "name": "Painting 8",
+    "price": 26.4,
+    "stock": 45,
+    "category": "decor",
+    "image": "decor/painting_8.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "95d74fc7-6ada-495d-8ab5-0b40d7a04c2c",
+    "name": "Decorative 9",
+    "price": 27.2,
+    "stock": 50,
+    "category": "decor",
+    "image": "decor/decorative_9.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "3d4327e5-4b0b-42d0-aa15-f100b849cd36",
+    "name": "Vase 10",
+    "price": 28.0,
+    "stock": 55,
+    "category": "decor",
+    "image": "decor/vase_10.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "e63f3170-8f4d-4f25-8628-23ac116a9c94",
+    "name": "Painting 11",
+    "price": 28.8,
+    "stock": 60,
+    "category": "decor",
+    "image": "decor/painting_11.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "d0909d01-d978-4dca-b5d1-e8a48e336291",
+    "name": "Decorative 12",
+    "price": 29.6,
+    "stock": 65,
+    "category": "decor",
+    "image": "decor/decorative_12.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "2821f968-a41d-4888-9d2f-0a334143a26b",
+    "name": "Vase 13",
+    "price": 30.4,
+    "stock": 70,
+    "category": "decor",
+    "image": "decor/vase_13.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "d17bd2d8-e8c7-4259-a5fc-b6ba57c3088c",
+    "name": "Painting 14",
+    "price": 31.2,
+    "stock": 75,
+    "category": "decor",
+    "image": "decor/painting_14.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "a41f29b7-05f4-4764-a9f0-ad75dd62d749",
+    "name": "Decorative 15",
+    "price": 32.0,
+    "stock": 80,
+    "category": "decor",
+    "image": "decor/decorative_15.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "aef29d7f-6e10-49dc-a05c-aedd017f3467",
+    "name": "Vase 16",
+    "price": 32.8,
+    "stock": 85,
+    "category": "decor",
+    "image": "decor/vase_16.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "aa10e976-076f-4e1b-b3d8-b99e32860b1f",
+    "name": "Painting 17",
+    "price": 33.6,
+    "stock": 90,
+    "category": "decor",
+    "image": "decor/painting_17.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "9647ac48-e391-4d89-b0f5-f3929d51b17d",
+    "name": "Decorative 18",
+    "price": 34.4,
+    "stock": 95,
+    "category": "decor",
+    "image": "decor/decorative_18.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "9f8fa211-74cf-49d3-87ca-ed1603e61ad2",
+    "name": "Vase 19",
+    "price": 35.2,
+    "stock": 100,
+    "category": "decor",
+    "image": "decor/vase_19.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "dc7ee314-3abe-4099-be75-8d980b813bd4",
+    "name": "Painting 20",
+    "price": 36.0,
+    "stock": 105,
+    "category": "decor",
+    "image": "decor/painting_20.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "fa9a619e-9b44-475f-94df-0563058d27f6",
+    "name": "Decorative 21",
+    "price": 36.8,
+    "stock": 110,
+    "category": "decor",
+    "image": "decor/decorative_21.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "758985c1-edd2-49eb-9dc8-971c11133f11",
+    "name": "Vase 22",
+    "price": 37.6,
+    "stock": 115,
+    "category": "decor",
+    "image": "decor/vase_22.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "1ee84333-c05f-4c49-bab2-23f9ac53cf54",
+    "name": "Painting 23",
+    "price": 38.4,
+    "stock": 120,
+    "category": "decor",
+    "image": "decor/painting_23.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "c461bee9-bd13-4067-b71d-4795fd0d5e3c",
+    "name": "Decorative 24",
+    "price": 39.2,
+    "stock": 125,
+    "category": "decor",
+    "image": "decor/decorative_24.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "881b88a0-826b-4aae-aa8e-c109c6af2b3b",
+    "name": "Vase 25",
+    "price": 40.0,
+    "stock": 130,
+    "category": "decor",
+    "image": "decor/vase_25.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "e38426ab-d590-46fe-94f9-1f209ce04be7",
+    "name": "Painting 26",
+    "price": 40.8,
+    "stock": 135,
+    "category": "decor",
+    "image": "decor/painting_26.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "e1adb255-54c9-47b6-a504-595d941d622a",
+    "name": "Decorative 27",
+    "price": 41.6,
+    "stock": 140,
+    "category": "decor",
+    "image": "decor/decorative_27.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "d8224784-9847-49d4-8eea-fbc30b2e284f",
+    "name": "Vase 28",
+    "price": 42.4,
+    "stock": 145,
+    "category": "decor",
+    "image": "decor/vase_28.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "e222faaf-25b7-4a78-aec5-f6f1bf3b464a",
+    "name": "Painting 29",
+    "price": 43.2,
+    "stock": 150,
+    "category": "decor",
+    "image": "decor/painting_29.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "7633c066-3f22-4214-93d6-805bd4ca1fc6",
+    "name": "Decorative 30",
+    "price": 44.0,
+    "stock": 155,
+    "category": "decor",
+    "image": "decor/decorative_30.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "3e6de752-b3da-49ce-87cd-6adc2334564f",
+    "name": "Vase 31",
+    "price": 44.8,
+    "stock": 160,
+    "category": "decor",
+    "image": "decor/vase_31.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "22bbf0a8-5d62-4f9a-a658-cc1a96b596d4",
+    "name": "Painting 32",
+    "price": 45.6,
+    "stock": 165,
+    "category": "decor",
+    "image": "decor/painting_32.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "a422093c-785c-48af-b752-258d3148a5dc",
+    "name": "Decorative 33",
+    "price": 46.4,
+    "stock": 170,
+    "category": "decor",
+    "image": "decor/decorative_33.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "6df83418-f95a-4537-b166-08445daf49c8",
+    "name": "Vase 34",
+    "price": 47.2,
+    "stock": 175,
+    "category": "decor",
+    "image": "decor/vase_34.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "ab17ecd1-7b85-4247-a1f7-8f6fda588d4c",
+    "name": "Painting 35",
+    "price": 48.0,
+    "stock": 180,
+    "category": "decor",
+    "image": "decor/painting_35.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "772e5174-221f-4b5c-b0b3-df6b3e959940",
+    "name": "Decorative 36",
+    "price": 48.8,
+    "stock": 185,
+    "category": "decor",
+    "image": "decor/decorative_36.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "4b495056-dfb5-4a15-95bd-ed07cf9c0049",
+    "name": "Vase 37",
+    "price": 49.6,
+    "stock": 190,
+    "category": "decor",
+    "image": "decor/vase_37.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "ce741bc9-1b7b-4ce6-97c2-5d8b9f6b2165",
+    "name": "Painting 38",
+    "price": 50.4,
+    "stock": 195,
+    "category": "decor",
+    "image": "decor/painting_38.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "05229e46-8f3c-4728-b9f9-dd599a002908",
+    "name": "Decorative 39",
+    "price": 51.2,
+    "stock": 200,
+    "category": "decor",
+    "image": "decor/decorative_39.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "b915595f-0e09-47a8-950a-9a9eb1da2ba5",
+    "name": "Vase 40",
+    "price": 52.0,
+    "stock": 205,
+    "category": "decor",
+    "image": "decor/vase_40.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "c434ba84-e3c0-41b3-8218-50325c33c2d1",
+    "name": "Painting 41",
+    "price": 52.8,
+    "stock": 210,
+    "category": "decor",
+    "image": "decor/painting_41.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "b3e0976f-4347-4630-92e5-61744a443212",
+    "name": "Decorative 42",
+    "price": 53.6,
+    "stock": 215,
+    "category": "decor",
+    "image": "decor/decorative_42.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "430503d8-d836-4360-9227-869e36b54d28",
+    "name": "Vase 43",
+    "price": 54.4,
+    "stock": 220,
+    "category": "decor",
+    "image": "decor/vase_43.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "d1928d02-4e32-4588-b0cf-beb03aa4d915",
+    "name": "Painting 44",
+    "price": 55.2,
+    "stock": 225,
+    "category": "decor",
+    "image": "decor/painting_44.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "a886012f-f7fa-426f-abf6-8f59bd9e5e17",
+    "name": "Decorative 45",
+    "price": 56.0,
+    "stock": 230,
+    "category": "decor",
+    "image": "decor/decorative_45.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "b6f24b92-968c-402c-a363-4ea0d1acf2db",
+    "name": "Vase 46",
+    "price": 56.8,
+    "stock": 235,
+    "category": "decor",
+    "image": "decor/vase_46.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "d851f4b1-9b15-4cd3-afcf-72b7d8a44a70",
+    "name": "Painting 47",
+    "price": 57.6,
+    "stock": 240,
+    "category": "decor",
+    "image": "decor/painting_47.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "1c5823d6-1def-4b86-b522-d0185a3b419c",
+    "name": "Decorative 48",
+    "price": 58.4,
+    "stock": 245,
+    "category": "decor",
+    "image": "decor/decorative_48.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "5e771ed6-bd5c-4c86-ae4c-06b17d608dde",
+    "name": "Vase 49",
+    "price": 59.2,
+    "stock": 250,
+    "category": "decor",
+    "image": "decor/vase_49.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "1dc814a9-6abe-4af6-82ca-05efed60608b",
+    "name": "Painting 50",
+    "price": 60.0,
+    "stock": 255,
+    "category": "decor",
+    "image": "decor/painting_50.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "6021505d-4eab-4361-957c-d5965f1c9d44",
+    "name": "Decorative 51",
+    "price": 60.8,
+    "stock": 260,
+    "category": "decor",
+    "image": "decor/decorative_51.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "80b489c1-1af7-44fa-96cc-2b8237e3dedb",
+    "name": "Vase 52",
+    "price": 61.6,
+    "stock": 265,
+    "category": "decor",
+    "image": "decor/vase_52.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "ad3ed63a-ee83-4288-b93d-1b132597be43",
+    "name": "Painting 53",
+    "price": 62.4,
+    "stock": 270,
+    "category": "decor",
+    "image": "decor/painting_53.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "c3368bf7-e23d-47d2-a1e1-b63d3e004c13",
+    "name": "Decorative 54",
+    "price": 63.2,
+    "stock": 275,
+    "category": "decor",
+    "image": "decor/decorative_54.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "f14d9b25-0d07-4eae-8d23-eccfec13ded9",
+    "name": "Vase 55",
+    "price": 64.0,
+    "stock": 280,
+    "category": "decor",
+    "image": "decor/vase_55.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "9a55857e-f369-4d09-b255-7036658b0a8e",
+    "name": "Painting 56",
+    "price": 64.8,
+    "stock": 285,
+    "category": "decor",
+    "image": "decor/painting_56.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "bcf7b7d4-58f0-44ed-bd7b-67fb66f7eb9d",
+    "name": "Decorative 57",
+    "price": 65.6,
+    "stock": 290,
+    "category": "decor",
+    "image": "decor/decorative_57.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "5d9e4a36-f084-4dff-9f2a-0da27df8e643",
+    "name": "Vase 58",
+    "price": 66.4,
+    "stock": 295,
+    "category": "decor",
+    "image": "decor/vase_58.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "48d2f79e-6e1c-4de9-af09-7bcaa23cbc7b",
+    "name": "Painting 59",
+    "price": 67.2,
+    "stock": 300,
+    "category": "decor",
+    "image": "decor/painting_59.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "a4aa1ac7-0311-481a-b0db-7d560dbe735c",
+    "name": "Decorative 60",
+    "price": 68.0,
+    "stock": 305,
+    "category": "decor",
+    "image": "decor/decorative_60.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "f62fb9fc-397e-4f84-a2a3-de67139f6b7a",
+    "name": "Vase 61",
+    "price": 68.8,
+    "stock": 310,
+    "category": "decor",
+    "image": "decor/vase_61.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "a8f4e752-1756-4e5a-a5f2-525a0a06d3f2",
+    "name": "Painting 62",
+    "price": 69.6,
+    "stock": 315,
+    "category": "decor",
+    "image": "decor/painting_62.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "6d500aea-1967-423a-9670-a069b710abb2",
+    "name": "Decorative 63",
+    "price": 70.4,
+    "stock": 320,
+    "category": "decor",
+    "image": "decor/decorative_63.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "82944cb4-75bf-48c1-9a6a-79874b11c3bc",
+    "name": "Vase 64",
+    "price": 71.2,
+    "stock": 325,
+    "category": "decor",
+    "image": "decor/vase_64.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "83622e15-27fb-4094-aaa6-b907a173971d",
+    "name": "Painting 65",
+    "price": 72.0,
+    "stock": 330,
+    "category": "decor",
+    "image": "decor/painting_65.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "25e6ffcd-8d91-4168-9f5f-59c61c7bceda",
+    "name": "Decorative 66",
+    "price": 72.8,
+    "stock": 335,
+    "category": "decor",
+    "image": "decor/decorative_66.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "0e4cd47c-14b6-4820-9fea-82250176ba59",
+    "name": "Vase 67",
+    "price": 73.6,
+    "stock": 340,
+    "category": "decor",
+    "image": "decor/vase_67.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "fa99a4a9-8980-4cc5-b99a-eac71ba7dc9d",
+    "name": "Painting 68",
+    "price": 74.4,
+    "stock": 345,
+    "category": "decor",
+    "image": "decor/painting_68.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "a9ec84eb-0c69-47cf-94b9-a5325a1a3b2c",
+    "name": "Decorative 69",
+    "price": 75.2,
+    "stock": 350,
+    "category": "decor",
+    "image": "decor/decorative_69.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "9f862418-83e9-4285-a48a-a4e490de41d6",
+    "name": "Vase 70",
+    "price": 76.0,
+    "stock": 355,
+    "category": "decor",
+    "image": "decor/vase_70.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "04336eb5-314c-486f-a52f-ba708335c0bb",
+    "name": "Painting 71",
+    "price": 76.8,
+    "stock": 360,
+    "category": "decor",
+    "image": "decor/painting_71.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "b0e60082-d376-460f-b275-03ba53d969ea",
+    "name": "Decorative 72",
+    "price": 77.6,
+    "stock": 365,
+    "category": "decor",
+    "image": "decor/decorative_72.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "cf98924d-8cbe-4953-8e8c-e16143a6bda7",
+    "name": "Vase 73",
+    "price": 78.4,
+    "stock": 370,
+    "category": "decor",
+    "image": "decor/vase_73.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "55d3ad7d-8288-4931-ab87-f64ac085dd87",
+    "name": "Painting 74",
+    "price": 79.2,
+    "stock": 375,
+    "category": "decor",
+    "image": "decor/painting_74.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "9d27de1d-02bc-46bf-913c-06ae9bcd8332",
+    "name": "Decorative 75",
+    "price": 80.0,
+    "stock": 380,
+    "category": "decor",
+    "image": "decor/decorative_75.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "f92308ab-df34-4a8d-b660-55372b19ac0e",
+    "name": "Vase 76",
+    "price": 80.8,
+    "stock": 385,
+    "category": "decor",
+    "image": "decor/vase_76.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "361643a4-284b-43ac-a6af-646fb28fa28c",
+    "name": "Painting 77",
+    "price": 81.6,
+    "stock": 390,
+    "category": "decor",
+    "image": "decor/painting_77.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "3214fdd9-bc8b-4fd5-a64c-24e6af34fe54",
+    "name": "Decorative 78",
+    "price": 82.4,
+    "stock": 395,
+    "category": "decor",
+    "image": "decor/decorative_78.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "cf70e99a-2790-4cf9-8a26-d22dea98cee2",
+    "name": "Vase 79",
+    "price": 83.2,
+    "stock": 400,
+    "category": "decor",
+    "image": "decor/vase_79.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "14ca2dbe-39ab-49a2-98b9-a6f6d77b3d39",
+    "name": "Painting 80",
+    "price": 84.0,
+    "stock": 405,
+    "category": "decor",
+    "image": "decor/painting_80.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "1ea04e92-198e-4dfa-abc1-23b7f096c23a",
+    "name": "Decorative 81",
+    "price": 84.8,
+    "stock": 410,
+    "category": "decor",
+    "image": "decor/decorative_81.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "5903aa35-6053-4f97-955f-1c48e961914f",
+    "name": "Vase 82",
+    "price": 85.6,
+    "stock": 415,
+    "category": "decor",
+    "image": "decor/vase_82.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "1596ce65-475f-42a4-b99e-bcf27e2da69b",
+    "name": "Painting 83",
+    "price": 86.4,
+    "stock": 420,
+    "category": "decor",
+    "image": "decor/painting_83.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "5fb514e0-892c-43a4-87ec-72d3b225f006",
+    "name": "Decorative 84",
+    "price": 87.2,
+    "stock": 425,
+    "category": "decor",
+    "image": "decor/decorative_84.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "42afbd6c-c7ba-46db-811a-ade84dfd2aa4",
+    "name": "Vase 85",
+    "price": 88.0,
+    "stock": 430,
+    "category": "decor",
+    "image": "decor/vase_85.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "dbb73100-1f09-47b8-abcc-6ceff6a8ee35",
+    "name": "Painting 86",
+    "price": 88.8,
+    "stock": 435,
+    "category": "decor",
+    "image": "decor/painting_86.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "3ea41e2c-e4b3-4c33-883f-de077f04d4c1",
+    "name": "Decorative 87",
+    "price": 89.6,
+    "stock": 440,
+    "category": "decor",
+    "image": "decor/decorative_87.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "b438f910-c2c3-4e37-8e82-7679085a9f49",
+    "name": "Vase 88",
+    "price": 90.4,
+    "stock": 445,
+    "category": "decor",
+    "image": "decor/vase_88.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "84187ea4-753f-4274-a6d8-b4b40ff8978e",
+    "name": "Painting 89",
+    "price": 91.2,
+    "stock": 450,
+    "category": "decor",
+    "image": "decor/painting_89.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "90e1c09e-ba7b-4510-afa9-5a773d0968d7",
+    "name": "Decorative 90",
+    "price": 92.0,
+    "stock": 455,
+    "category": "decor",
+    "image": "decor/decorative_90.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "f43ec85f-da66-4a05-a11b-7d19785d6773",
+    "name": "Vase 91",
+    "price": 92.8,
+    "stock": 460,
+    "category": "decor",
+    "image": "decor/vase_91.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "be1c4f78-ec1b-4890-9cba-1c82ba0b9816",
+    "name": "Painting 92",
+    "price": 93.6,
+    "stock": 465,
+    "category": "decor",
+    "image": "decor/painting_92.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "165891da-5797-4450-b9d8-eb87ab7ab09f",
+    "name": "Decorative 93",
+    "price": 94.4,
+    "stock": 470,
+    "category": "decor",
+    "image": "decor/decorative_93.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "96244f9a-f086-46c6-befa-60d07da92725",
+    "name": "Vase 94",
+    "price": 95.2,
+    "stock": 475,
+    "category": "decor",
+    "image": "decor/vase_94.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "045e19be-291d-43eb-bd81-96973539b4de",
+    "name": "Painting 95",
+    "price": 96.0,
+    "stock": 480,
+    "category": "decor",
+    "image": "decor/painting_95.jpg",
+    "retailer": "Home Depot"
+  },
+  {
+    "id": "c0b812da-0519-4101-bfee-b1935e16898d",
+    "name": "Decorative 96",
+    "price": 96.8,
+    "stock": 485,
+    "category": "decor",
+    "image": "decor/decorative_96.jpg",
+    "retailer": "Ikea"
+  },
+  {
+    "id": "4cad9332-f2f9-456d-8a68-c524ab3ab63a",
+    "name": "Vase 97",
+    "price": 97.6,
+    "stock": 490,
+    "category": "decor",
+    "image": "decor/vase_97.jpg",
+    "retailer": "Wayfair"
+  },
+  {
+    "id": "37280beb-2d36-4cc3-ad37-7d84e3518944",
+    "name": "Painting 98",
+    "price": 98.4,
+    "stock": 495,
+    "category": "decor",
+    "image": "decor/painting_98.jpg",
+    "retailer": "Amazon"
+  },
+  {
+    "id": "3fb77758-30ad-4f35-8ce2-90887cca3f95",
+    "name": "Decorative 99",
+    "price": 99.2,
+    "stock": 500,
+    "category": "decor",
+    "image": "decor/decorative_99.jpg",
+    "retailer": "Target"
+  },
+  {
+    "id": "baae1880-0904-45cc-bea3-57e6c40b0524",
+    "name": "Vase 100",
+    "price": 100.0,
+    "stock": 505,
+    "category": "decor",
+    "image": "decor/vase_100.jpg",
+    "retailer": "Home Depot"
+  }
+]

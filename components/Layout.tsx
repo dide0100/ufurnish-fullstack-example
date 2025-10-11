@@ -1,10 +1,23 @@
-// components/Layout.js
-import Head from 'next/head';
+// components/Layout.tsx
+import Head from 'next/head'
+import type { ReactNode } from 'react'
 
-export default function Layout({ children, title, description, image }) {
-  const defaultTitle = 'ufurnish.com – Discover Furniture Online';
-  const defaultDescription = 'Compare and discover furniture from top UK retailers.';
-  const defaultImage = 'https://via.placeholder.com/600x400?text=ufurnish';
+interface LayoutProps {
+  children: ReactNode
+  title?: string
+  description?: string
+  image?: string
+}
+
+export default function Layout({
+  children,
+  title,
+  description,
+  image,
+}: LayoutProps) {
+  const defaultTitle = 'ufurnish.com – Discover Furniture Online'
+  const defaultDescription = 'Compare and discover furniture from top UK retailers.'
+  const defaultImage = 'https://via.placeholder.com/600x400?text=ufurnish'
 
   return (
     <>
@@ -27,5 +40,5 @@ export default function Layout({ children, title, description, image }) {
         <small>© {new Date().getFullYear()} ufurnish.com</small>
       </footer>
     </>
-  );
+  )
 }

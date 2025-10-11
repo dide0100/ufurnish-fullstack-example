@@ -1,0 +1,26 @@
+[
+  {
+    "id": "furniture",
+    "name": "Furniture",
+    "description": "Furniture products for your home.",
+    "image": "img/furniture/category.jpg",
+    "productCount": 100,
+    "updatedAt": "2025-10-11T15:13:52.718273"
+  },
+  {
+    "id": "lighting",
+    "name": "Lighting",
+    "description": "Lighting products for your home.",
+    "image": "img/lighting/category.jpg",
+    "productCount": 100,
+    "updatedAt": "2025-10-11T15:14:23.353929"
+  },
+  {
+    "id": "decor",
+    "name": "Decor",
+    "description": "Decor products for your home.",
+    "image": "img/decor/category.jpg",
+    "productCount": 100,
+    "updatedAt": "2025-10-11T15:14:55.156228"
+  }
+]
