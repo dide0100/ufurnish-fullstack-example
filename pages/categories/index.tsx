@@ -18,7 +18,7 @@ export default function CategoriesPage({ categories }: CategoriesPageProps) {
             <Link href={`/categories/${cat.id}`}>
               <div>
                 <Image
-                  src={cat.image || '/public/img/placeholder.png'}
+                  src={cat.image || '/img/placeholder.png'}
                   alt={cat.name}
                   width={300}
                   height={200}
