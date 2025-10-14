@@ -19,30 +19,23 @@ interface CategoryPageProps {
 // Category Page Component - displays category banner and products from database
 export default function CategoryDBPage({ category, products }: CategoryPageProps) {
   const [productList] = useState(products)
-
+  const bannerImage = category.image ? `${category.image.replace('.jpg', '_banner.jpg')}` : '/img/placeholder.png'
   return (
-    <main style={{ padding: '1rem' }}>
+    <main className="p-4">
       {/* Category banner image (priority for LCP) */}
-      <div style={{ position: 'relative', width: '100%', height: '400px', marginBottom: '1rem' }}>
+      <div className="relative w-full h-96 mb-4">
          <Image
-           src={category.image ? `/${category.image}` : '/img/placeholder.png'}
+            src={category.image ? `/${bannerImage}` : '/img/placeholder.png'}
            alt={category.name}
            fill
-           style={{ objectFit: 'cover', borderRadius: '8px' }}
+           className="object-cover rounded-lg"
            priority // ✅ preloads the main category image
          />
       </div>
 
-      <h1 style={{ textTransform: 'capitalize' }}>{category.name}</h1>
-      <p>{category.description}</p>
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-          gap: '1.5rem',
-          marginTop: '1rem',
-        }}
-      >
+      <h1 className="capitalize text-4xl font-bold mb-4">{category.name}</h1>
+      <p className="text-gray-700 mb-6">{category.description}</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4">
           {productList.map((p, index) => (
             <ProductCardWithLink
               key={p.id}

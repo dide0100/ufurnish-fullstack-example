@@ -19,50 +19,20 @@ export default function TopMenu() {
   }
 
   return (
-    <nav
-      style={{
-        backgroundColor: '#333',
-        padding: '0',
-        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-      }}
-    >
-      <ul
-        style={{
-          display: 'flex',
-          listStyle: 'none',
-          margin: 0,
-          padding: 0,
-          maxWidth: '1400px',
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        }}
-      >
+    <nav className="bg-gray-800 shadow-md">
+      <ul className="flex list-none m-0 p-0 max-w-7xl mx-auto">
         {menuItems.map((item) => (
-          <li key={item.href} style={{ margin: 0 }}>
+          <li key={item.href} className="m-0">
             <Link
               href={item.href}
-              style={{
-                display: 'block',
-                padding: '1rem 1.5rem',
-                color: isActive(item.href) ? '#fff' : '#ccc',
-                textDecoration: 'none',
-                fontWeight: isActive(item.href) ? 'bold' : 'normal',
-                backgroundColor: isActive(item.href) ? '#555' : 'transparent',
-                transition: 'all 0.2s',
-                borderBottom: isActive(item.href) ? '3px solid #007bff' : '3px solid transparent',
-              }}
-              onMouseEnter={(e) => {
-                if (!isActive(item.href)) {
-                  e.currentTarget.style.backgroundColor = '#444'
-                  e.currentTarget.style.color = '#fff'
+              className={`
+                block px-6 py-4 no-underline transition-all duration-200
+                border-b-3
+                ${isActive(item.href) 
+                  ? 'text-white font-bold bg-gray-700 border-b-4 border-blue-500' 
+                  : 'text-gray-400 font-normal bg-transparent border-b-4 border-transparent hover:bg-gray-700 hover:text-white'
                 }
-              }}
-              onMouseLeave={(e) => {
-                if (!isActive(item.href)) {
-                  e.currentTarget.style.backgroundColor = 'transparent'
-                  e.currentTarget.style.color = '#ccc'
-                }
-              }}
+              `}
             >
               {item.label}
             </Link>

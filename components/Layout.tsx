@@ -31,16 +31,16 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
-      <header style={{ background: '#f6f6f6' }}>
-        <div style={{ padding: '1rem', maxWidth: '1400px', margin: '0 auto' }}>
-          <h2 style={{ margin: 0 }}>ufurnish.com</h2>
+      <header className="bg-gray-100">
+        <div className="p-4 max-w-7xl mx-auto">
+          <h2 className="m-0 text-2xl font-semibold">ufurnish.com</h2>
         </div>
         <TopMenu />
       </header>
 
-      <main style={{ padding: '1rem' }}>{children}</main>
+      <main className="p-4">{children}</main>
 
-      <footer style={{ marginTop: '2rem', padding: '1rem', background: '#fafafa' }}>
+      <footer className="mt-8 p-4 bg-gray-50 text-center">
         <small>© {new Date().getFullYear()} ufurnish.com</small>
       </footer>
     </>

@@ -29,49 +29,41 @@ export default function ProductDBPage({ product }: ProductPageProps) {
   }
 
   return (
-    <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <Link href={`/categories/db/${product.category}`} style={{ color: '#0066cc', textDecoration: 'none' }}>
+    <div className="p-8 max-w-4xl mx-auto">
+      <Link href={`/categories/db/${product.category}`} className="text-blue-600 hover:text-blue-800 no-underline inline-block mb-6">
         ← Back to {product.category}
       </Link>
       
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginTop: '2rem' }}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
         <div>
           <Image
             src={imageSrc}
             alt={product.name}
             width={400}
             height={400}
-            style={{ objectFit: 'cover', borderRadius: '8px' }}
+            className="object-cover rounded-lg w-full"
             priority
           />
         </div>
         
         <div>
-          <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>{product.name}</h1>
-          <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#333', marginBottom: '1rem' }}>
+          <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
+          <p className="text-2xl font-bold text-gray-800 mb-4">
             €{product.price}
           </p>
-          <p style={{ 
-            color: product.stock > 0 ? 'green' : 'red', 
-            fontWeight: 'bold',
-            marginBottom: '1rem'
-          }}>
+          <p className={`font-bold mb-4 ${product.stock > 0 ? 'text-green-600' : 'text-red-600'}`}>
             {product.stock > 0 ? `${product.stock} in stock` : 'Out of stock'}
           </p>
-          <p style={{ color: '#666', marginBottom: '1rem' }}>
+          <p className="text-gray-600 mb-4">
             Sold by: <strong>{product.retailer}</strong>
           </p>
           
           <button 
-            style={{
-              backgroundColor: product.stock > 0 ? '#007bff' : '#ccc',
-              color: 'white',
-              padding: '1rem 2rem',
-              border: 'none',
-              borderRadius: '4px',
-              fontSize: '1rem',
-              cursor: product.stock > 0 ? 'pointer' : 'not-allowed'
-            }}
+            className={`px-8 py-4 text-white rounded border-none text-base transition-colors ${
+              product.stock > 0 
+                ? 'bg-blue-600 hover:bg-blue-700 cursor-pointer' 
+                : 'bg-gray-400 cursor-not-allowed'
+            }`}
             disabled={product.stock === 0}
           >
             {product.stock > 0 ? 'Add to Cart' : 'Out of Stock'}
