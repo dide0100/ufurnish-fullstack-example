@@ -1,18 +1,18 @@
-// pages/products/[id].tsx
+// pages/products/db/[id].tsx
+// Server-side rendered product detail page that fetches data directly from MySQL database
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import type { GetStaticProps, GetStaticPaths } from 'next'
-import type { Product, ApiResponse } from '../../types/product'
-import { getBaseUrl } from '../../lib/config'
-import productsData from '../../data/products.json'
+import { GetServerSideProps } from 'next'
+import { pool } from '@/lib/db'
+import type { Product } from '@/types/product'
 
 interface ProductPageProps {
   product: Product
 }
 
-// Product detail page component - displays full product information
-export default function ProductPage({ product }: ProductPageProps) {
+// Product detail page component - displays full product information from database
+export default function ProductDBPage({ product }: ProductPageProps) {
   // Ensure image path has leading slash and /img/ prefix for Next.js Image component
   // Handle different formats: absolute URLs, paths starting with /, and relative paths
   let imageSrc = '/img/placeholder.png'
@@ -30,7 +30,7 @@ export default function ProductPage({ product }: ProductPageProps) {
 
   return (
     <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <Link href={`/categories/${product.category}`} style={{ color: '#0066cc', textDecoration: 'none' }}>
+      <Link href={`/categories/db/${product.category}`} style={{ color: '#0066cc', textDecoration: 'none' }}>
         ← Back to {product.category}
       </Link>
       
@@ -82,38 +82,25 @@ export default function ProductPage({ product }: ProductPageProps) {
   )
 }
 
-// ISR: Generate static pages with revalidation
-export const getStaticProps: GetStaticProps<ProductPageProps> = async ({ params }) => {
+// Server-side data fetching - fetches product from MySQL database
+export const getServerSideProps: GetServerSideProps<ProductPageProps> = async ({ params }) => {
   const productId = params?.id as string
 
-  if (!productId) {
-    return { notFound: true }
-  }
+  const [rows] = await pool.query(
+    `SELECT id, category_id AS category, name, description, price, image, stock, retailer
+     FROM products 
+     WHERE id = ?`,
+    [productId]
+  )
+  
+  const products = rows as Product[]
 
-  // Fetch product from local API
-  const baseUrl = getBaseUrl()
-  const res = await fetch(`${baseUrl}/api/v1/product/${productId}`)
-  const json: ApiResponse<Product> = await res.json()
-
-  if (!json.success || !json.data) {
+  if (!products.length || !products[0]) {
     return { notFound: true }
   }
 
   return {
-    props: { product: json.data },
-    revalidate: 60, // ISR: revalidate every 60s
+    props: { product: products[0]! }
   }
 }
 
-// Generate paths for all products at build time
-export const getStaticPaths: GetStaticPaths = async () => {
-  // Get all product IDs from the data
-  const paths = productsData.map((product) => ({
-    params: { id: product.id },
-  }))
-
-  return {
-    paths,
-    fallback: 'blocking', // Generate new products on first request
-  }
-}
