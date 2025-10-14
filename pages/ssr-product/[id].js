@@ -8,11 +8,13 @@ Behavior:
 
 export default function SSRProduct({ product }) {
   return (
-    <div>
-      <h1>SSR Product Page</h1>
-      <p>ID: {product.id}</p>
-      <p>Name: {product.name}</p>
-      <p>Price: £{product.price}</p>
+    <div className="p-8 max-w-4xl mx-auto">
+      <h1 className="text-4xl font-bold mb-6">SSR Product Page</h1>
+      <div className="bg-white rounded-lg shadow-md p-6">
+        <p className="text-lg mb-2"><span className="font-semibold">ID:</span> {product.id}</p>
+        <p className="text-lg mb-2"><span className="font-semibold">Name:</span> {product.name}</p>
+        <p className="text-lg mb-2"><span className="font-semibold">Price:</span> £{product.price}</p>
+      </div>
     </div>
   );
 }

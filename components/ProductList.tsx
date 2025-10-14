@@ -30,14 +30,14 @@ export const ProductList: React.FC<ProductListProps> = ({ categoryId }) => {
     fetchProducts()
   }, [categoryId])
 
-  if (loading) return <p>Loading products...</p>
+  if (loading) return <p className="text-center text-gray-600 py-8">Loading products...</p>
 
   return (
-    <div className="grid">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {products.map((p) => (
-        <div key={p.id}>
-          <h4>{p.name}</h4>
-          <p>€{p.price}</p>
+        <div key={p.id} className="border border-gray-200 rounded-lg p-4 bg-white shadow-sm hover:shadow-md transition-shadow">
+          <h4 className="text-lg font-semibold mb-2">{p.name}</h4>
+          <p className="text-xl font-bold text-gray-800">€{p.price}</p>
         </div>
       ))}
     </div>

@@ -42,41 +42,27 @@ const CategoryCard: React.FC<CategoryCardProps> = ({
   }
 
   return (
-    <Link key={id} href={`${linkPrefix}/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-      <div
-        style={{
-          border: '1px solid #eee',
-          borderRadius: '12px',
-          overflow: 'hidden',
-          background: '#fff',
-          cursor: 'pointer',
-          transition: 'transform 0.2s, box-shadow 0.2s',
-          boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-        }}
-        onMouseOver={(e) => {
-          e.currentTarget.style.transform = 'translateY(-4px)'
-          e.currentTarget.style.boxShadow = '0 8px 25px rgba(0,0,0,0.15)'
-        }}
-        onMouseOut={(e) => {
-          e.currentTarget.style.transform = 'translateY(0)'
-          e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)'
-        }}
-      >
-        <div style={{ position: 'relative', width: '100%', height: '200px' }}>
+    <Link 
+      key={id} 
+      href={`${linkPrefix}/${id}`} 
+      className="no-underline text-inherit"
+    >
+      <div className="border border-gray-200 rounded-xl overflow-hidden bg-white cursor-pointer transition-all duration-200 shadow-md hover:shadow-2xl hover:-translate-y-1">
+        <div className="relative w-full h-48">
           <Image
             src={imageSrc}
             alt={name}
             fill
-            style={{ objectFit: 'cover' }}
+            className="object-cover"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority // ✅ preloads the main category image
           />
         </div>
-        <div style={{ padding: '1.5rem' }}>
-          <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.5rem' }}>{name}</h3>
-          {description && <p style={{ color: '#666', marginBottom: '1rem' }}>{description}</p>}
+        <div className="p-6">
+          <h3 className="m-0 mb-2 text-2xl">{name}</h3>
+          {description && <p className="text-gray-600 mb-4">{description}</p>}
           {productCount !== undefined && (
-            <small style={{ color: '#999', fontWeight: 'bold' }}>
+            <small className="text-gray-500 font-bold">
               {productCount} products available
             </small>
           )}

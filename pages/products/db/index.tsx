@@ -20,17 +20,11 @@ type Props = { products: Product[] }
 // Products page component - renders all products from database
 export default function ProductsDBPage({ products }: Props) {
   return (
-    <main style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-      <h1 style={{ textAlign: 'center', marginBottom: '2rem', fontSize: '2.5rem' }}>
+    <main className="p-8 max-w-6xl mx-auto">
+      <h1 className="text-center mb-8 text-4xl font-bold">
         Products from DB
       </h1>
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-          gap: '1.5rem',
-        }}
-      >
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((p, index) => (
           <ProductCardWithLink
             key={p.id}

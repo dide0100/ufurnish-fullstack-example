@@ -9,18 +9,12 @@ interface CategoriesPageProps {
 
 export default function CategoriesPage({ categories }: CategoriesPageProps) {
   return (
-    <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-      <h1 style={{ textAlign: 'center', marginBottom: '2rem', fontSize: '2.5rem' }}>
+    <div className="p-8 max-w-6xl mx-auto">
+      <h1 className="text-center mb-8 text-4xl font-bold">
         Furniture Categories
       </h1>
       
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-          gap: '2rem',
-        }}
-      >
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {categories.map((cat) => (
           <CategoryCard
             key={cat.id}
