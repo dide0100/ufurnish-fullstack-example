@@ -18,17 +18,17 @@ type Props = { categories: Category[] }
 export default function CategoriesDBPage({ categories }: Props) {
   return (
     <div style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-    <h1 style={{ textAlign: 'center', marginBottom: '2rem', fontSize: '2.5rem' }}>
-      Furniture Categories from DB
-    </h1>
-    
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-        gap: '2rem',
-      }}
-    >
+      <h1 style={{ textAlign: 'center', marginBottom: '2rem', fontSize: '2.5rem' }}>
+        Furniture Categories from DB
+      </h1>
+      
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+          gap: '2rem',
+        }}
+      >
         {categories.map((cat) => (
           <CategoryCard
             key={cat.id}

@@ -1,6 +1,7 @@
 // components/Layout.tsx
 import Head from 'next/head'
 import type { ReactNode } from 'react'
+import TopMenu from './TopMenu'
 
 interface LayoutProps {
   children: ReactNode
@@ -30,8 +31,11 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
-      <header style={{ padding: '1rem', background: '#f6f6f6' }}>
-        <h2>ufurnish.com</h2>
+      <header style={{ background: '#f6f6f6' }}>
+        <div style={{ padding: '1rem', maxWidth: '1400px', margin: '0 auto' }}>
+          <h2 style={{ margin: 0 }}>ufurnish.com</h2>
+        </div>
+        <TopMenu />
       </header>
 
       <main style={{ padding: '1rem' }}>{children}</main>
