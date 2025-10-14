@@ -7,12 +7,12 @@
 import fs from 'fs'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import { useState } from 'react'
 import type { Product, ApiResponse } from '../../types/product.js'
 import { getBaseUrl } from '../../lib/config'
 import path from 'path'
 import { Category } from '../../types/category.js'
+import ProductCardWithLink from '../../components/ProductCardWithLink'
 
 interface CategoryPageProps {
   category: Category
@@ -64,44 +64,17 @@ export default function CategoryPage({ category, products }: CategoryPageProps) 
         }}
       >
           {productList.map((p, index) => (
-            <Link key={p.id} href={`/products/${p.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-              <div
-                style={{
-                  border: '1px solid #eee',
-                  borderRadius: '8px',
-                  padding: '1rem',
-                  textAlign: 'center',
-                  background: '#fff',
-                  cursor: 'pointer',
-                  transition: 'transform 0.2s, box-shadow 0.2s',
-                }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)'
-                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)'
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)'
-                  e.currentTarget.style.boxShadow = 'none'
-                }}
-              >
-                <div style={{ position: 'relative', width: '100%', height: '200px' }}>
-                  <Image
-                    src={p.image || '/img/placeholder.png'}
-                    alt={p.name}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    style={{ objectFit: 'cover', borderRadius: '8px' }}
-                    priority={index === 0} // ✅ priority for first image (LCP optimization)
-                  />
-                </div>
-                <h3 style={{ margin: '0.5rem 0' }}>{p.name}</h3>
-                <p style={{ fontSize: '1.2rem', fontWeight: 'bold', color: '#333' }}>€{p.price}</p>
-                <p style={{ color: p.stock > 0 ? 'green' : 'red' }}>
-                  {p.stock > 0 ? 'In stock' : 'Out of stock'}
-                </p>
-                <small style={{ color: '#666' }}>{p.retailer}</small>
-              </div>
-            </Link>
+            <ProductCardWithLink
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              price={p.price}
+              stock={p.stock}
+              image={p.image}
+              retailer={p.retailer}
+              linkPrefix="/products"
+              priority={index === 0} // ✅ priority for first image (LCP optimization)
+            />
           ))}
       </div>
     </main>
